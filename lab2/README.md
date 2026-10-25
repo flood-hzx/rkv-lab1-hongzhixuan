@@ -26,7 +26,7 @@ M3按IDLE→PROCESS→DONE工作；start被接受的第一沿busy=1、done=0，�
 
 ## 运行入口
 
-在本Lab目录执行；从四个Lab共同上级目录可用make -C lab2加相同目标。每次run自动编译，不能靠旧缓存通过。
+在本Lab目录执行；从各Lab共同上级目录可用make -C lab2加相同目标。每次run自动编译，不能靠旧缓存通过。
 
     make smoke
     make regress

@@ -27,7 +27,7 @@ TB实际使用module/interface/string/typedef/enum/struct/function/task；monito
 
 ## 运行入口
 
-在本Lab目录执行；从四个Lab共同上级目录可用make -C lab1加相同目标。每次run自动编译，不能靠旧缓存通过。
+在本Lab目录执行；从各Lab共同上级目录可用make -C lab1加相同目标。每次run自动编译，不能靠旧缓存通过。
 
     make smoke
     make regress

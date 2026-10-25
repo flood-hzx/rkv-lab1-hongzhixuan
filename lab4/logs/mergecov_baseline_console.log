@@ -1,0 +1,49 @@
+make: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4'
+Reading pref.tcl
+
+# 2021.1
+
+# coverage read -dataset busy_1 coverage/baseline/busy_1_current_cov_20261025_baseline_busy_1/busy_1.ucdb
+# coverage/baseline/busy_1_current_cov_20261025_baseline_busy_1/busy_1.ucdb opened as coverage dataset "busy_1"
+# do mergecov.do baseline current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage
+# baseline
+# current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/reports/baseline/current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/busy_1_current_cov_20261025_baseline_busy_1/busy_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/csr_1_current_cov_20261025_baseline_csr_1/csr_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/errors_1_current_cov_20261025_baseline_errors_1/errors_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/extension_1_current_cov_20261025_baseline_extension_1/extension_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/frames_1_current_cov_20261025_baseline_frames_1/frames_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/irq_1_current_cov_20261025_baseline_irq_1/irq_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/memory_1_current_cov_20261025_baseline_memory_1/memory_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/random_1_current_cov_20261025_baseline_random_1/random_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/smoke_1_current_cov_20261025_baseline_smoke_1/smoke_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/status_1_current_cov_20261025_baseline_status_1/status_1.ucdb
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/merged_raw.ucdb
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/exclusion_working_copy.ucdb
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/merged_filtered.ucdb
+Merging 10 baseline UCDB files into C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/merged_raw.ucdb
+# QuestaSim-64 vcover 2021.1 Coverage Utility 2021.01 Jan 19 2021
+# Start time: 02:39:02 on Oct 25,2026
+# vcover merge -out C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/merged_raw.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/busy_1_current_cov_20261025_baseline_busy_1/busy_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/csr_1_current_cov_20261025_baseline_csr_1/csr_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/errors_1_current_cov_20261025_baseline_errors_1/errors_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/extension_1_current_cov_20261025_baseline_extension_1/extension_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/frames_1_current_cov_20261025_baseline_frames_1/frames_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/irq_1_current_cov_20261025_baseline_irq_1/irq_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/memory_1_current_cov_20261025_baseline_memory_1/memory_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/random_1_current_cov_20261025_baseline_random_1/random_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/smoke_1_current_cov_20261025_baseline_smoke_1/smoke_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/status_1_current_cov_20261025_baseline_status_1/status_1.ucdb 
+# QuestaSim-64 vcover 2021.1 Coverage Utility 2021.01 Jan 19 2021
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/busy_1_current_cov_20261025_baseline_busy_1/busy_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/csr_1_current_cov_20261025_baseline_csr_1/csr_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/errors_1_current_cov_20261025_baseline_errors_1/errors_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/extension_1_current_cov_20261025_baseline_extension_1/extension_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/frames_1_current_cov_20261025_baseline_frames_1/frames_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/irq_1_current_cov_20261025_baseline_irq_1/irq_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/memory_1_current_cov_20261025_baseline_memory_1/memory_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/random_1_current_cov_20261025_baseline_random_1/random_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/smoke_1_current_cov_20261025_baseline_smoke_1/smoke_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/baseline/status_1_current_cov_20261025_baseline_status_1/status_1.ucdb
+# Writing merged result to C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/merged_raw.ucdb
+# 
+# End time: 02:39:02 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+Applying exclusions to copied dataset C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/exclusion_working_copy.ucdb and saving C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/merged_filtered.ucdb
+# coverage read -dataset lab4_filter_work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/exclusion_working_copy.ucdb
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/exclusion_working_copy.ucdb opened as coverage dataset "lab4_filter_work"
+# line s
+# branch b
+# condition c
+# fsm f
+# toggle t
+# apb_slave_if packet_sram packet_proc_core ppa_top
+Coverage COVSET=baseline runs=10 raw=C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/merged_raw.ucdb filtered=C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/merged_baseline_current_20261025/merged_filtered.ucdb reports=C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/reports/baseline/current_20261025
+make: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4'

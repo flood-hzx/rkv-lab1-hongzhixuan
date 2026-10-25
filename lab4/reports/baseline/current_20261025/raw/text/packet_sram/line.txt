@@ -1,0 +1,27 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.packet_sram
+=================================================================================
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       6         6         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for Design Unit work.packet_sram --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv
+    19              1                       2152     
+    21              1                         20     
+    22              1                         20     
+    24              1                        251     
+    25              1                        135     
+    26              1                         32     
+
+
+Total Coverage By Design Unit (filtered view): 100.00%
+

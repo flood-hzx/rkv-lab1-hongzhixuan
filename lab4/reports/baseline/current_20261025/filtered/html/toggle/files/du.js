@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.apb_slave_if","id":6,"zf":1,"tc":91.50,"t":91.50},{"n":"work.packet_proc_core","id":8,"zf":1,"tc":90.12,"t":90.12},{"n":"work.packet_sram","id":7,"zf":1,"tc":88.31,"t":88.31},{"n":"work.ppa_top","id":5,"zf":1,"tc":92.46,"t":92.46}]};
+processDuData(g_data);

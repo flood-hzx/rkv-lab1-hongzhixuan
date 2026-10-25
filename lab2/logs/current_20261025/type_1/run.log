@@ -1,0 +1,66 @@
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -voptargs="+acc" -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/type_1/run.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/type_1.wlf tb_lab2 "+TESTNAME=type" "+SEED=1" 
+# Start time: 02:30:49 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.proc_if(fast)
+# Loading work.lab2_pkg(fast)
+# Loading work.tb_lab2(fast)
+# Loading work.proc_if(fast__2)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=type class=type_test seed=1 clock_ns=10 memory_words=8 sync_read=1 payload_pattern=directed
+# [FRAME_START] test=type frame=1 len=8 type=03 mode=1 mask=f exp_len=0 payload_bytes=4
+# [MEM_READ] time=135 ns address=0
+# [MEM_READ] time=145 ns address=1
+# [MEM_READ] time=155 ns address=1
+# [DONE] time=156 ns completion=1
+# [FRAME_PASS] test=type frame=1 cycles=3 len=8 type=03 sum=0a xor=04 errors=010 format_ok=0 queue_left=0
+# [FRAME_START] test=type frame=2 len=8 type=01 mode=1 mask=e exp_len=0 payload_bytes=4
+# [MEM_READ] time=285 ns address=0
+# [MEM_READ] time=295 ns address=1
+# [MEM_READ] time=305 ns address=1
+# [DONE] time=306 ns completion=2
+# [FRAME_PASS] test=type frame=2 cycles=3 len=8 type=01 sum=0a xor=04 errors=010 format_ok=0 queue_left=0
+# [FRAME_START] test=type frame=3 len=8 type=08 mode=1 mask=8 exp_len=0 payload_bytes=4
+# [MEM_READ] time=435 ns address=0
+# [MEM_READ] time=445 ns address=1
+# [MEM_READ] time=455 ns address=1
+# [DONE] time=456 ns completion=3
+# [FRAME_PASS] test=type frame=3 cycles=3 len=8 type=08 sum=0a xor=04 errors=000 format_ok=1 queue_left=0
+# [CHECK_COUNT] test=type item=DONE holds count=9
+# [CHECK_COUNT] test=type item=completion busy/done count=3
+# [CHECK_COUNT] test=type item=error flags count=3
+# [CHECK_COUNT] test=type item=expected queue empty count=1
+# [CHECK_COUNT] test=type item=first cycle busy/done count=3
+# [CHECK_COUNT] test=type item=format_ok count=3
+# [CHECK_COUNT] test=type item=monitor completions count=1
+# [CHECK_COUNT] test=type item=monitor starts count=1
+# [CHECK_COUNT] test=type item=payload sum count=3
+# [CHECK_COUNT] test=type item=payload xor count=3
+# [CHECK_COUNT] test=type item=reset busy/done count=1
+# [CHECK_COUNT] test=type item=reset flags count=1
+# [CHECK_COUNT] test=type item=reset result count=1
+# [CHECK_COUNT] test=type item=result length count=3
+# [CHECK_COUNT] test=type item=result type count=3
+# [CHECK_COUNT] test=type item=start clears flags count=3
+# [CHECK_COUNT] test=type item=start clears result count=3
+# [PASS] test=type seed=1 frames=3 checks=45 expected_queue=0
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv(57)
+#    Time: 486 ns  Iteration: 0  Instance: /tb_lab2
+# Break in Module tb_lab2 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# End time: 02:30:57 on Oct 25,2026, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0

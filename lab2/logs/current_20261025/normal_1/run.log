@@ -1,0 +1,72 @@
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -voptargs="+acc" -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/normal_1/run.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/normal_1.wlf tb_lab2 "+TESTNAME=normal" "+SEED=1" 
+# Start time: 02:29:47 on Oct 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "packet_proc_core(fast)".
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.proc_if(fast)
+# Loading work.lab2_pkg(fast)
+# Loading work.tb_lab2(fast)
+# Loading work.proc_if(fast__2)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=normal class=normal_test seed=1 clock_ns=10 memory_words=8 sync_read=1 payload_pattern=directed
+# [FRAME_START] test=normal frame=1 len=4 type=01 mode=1 mask=f exp_len=0 payload_bytes=0
+# [MEM_READ] time=135 ns address=0
+# [MEM_READ] time=145 ns address=0
+# [DONE] time=146 ns completion=1
+# [FRAME_PASS] test=normal frame=1 cycles=2 len=4 type=01 sum=00 xor=00 errors=000 format_ok=1 queue_left=0
+# [FRAME_START] test=normal frame=2 len=8 type=02 mode=1 mask=f exp_len=0 payload_bytes=4
+# [MEM_READ] time=275 ns address=0
+# [MEM_READ] time=285 ns address=1
+# [MEM_READ] time=295 ns address=1
+# [DONE] time=296 ns completion=2
+# [FRAME_PASS] test=normal frame=2 cycles=3 len=8 type=02 sum=0a xor=04 errors=000 format_ok=1 queue_left=0
+# [FRAME_START] test=normal frame=3 len=32 type=04 mode=1 mask=f exp_len=0 payload_bytes=28
+# [MEM_READ] time=425 ns address=0
+# [MEM_READ] time=435 ns address=1
+# [MEM_READ] time=445 ns address=2
+# [MEM_READ] time=455 ns address=3
+# [MEM_READ] time=465 ns address=4
+# [MEM_READ] time=475 ns address=5
+# [MEM_READ] time=485 ns address=6
+# [MEM_READ] time=495 ns address=7
+# [MEM_READ] time=505 ns address=7
+# [DONE] time=506 ns completion=3
+# [FRAME_PASS] test=normal frame=3 cycles=9 len=32 type=04 sum=96 xor=1c errors=000 format_ok=1 queue_left=0
+# [CHECK_COUNT] test=normal item=DONE holds count=9
+# [CHECK_COUNT] test=normal item=completion busy/done count=3
+# [CHECK_COUNT] test=normal item=error flags count=3
+# [CHECK_COUNT] test=normal item=expected queue empty count=1
+# [CHECK_COUNT] test=normal item=first cycle busy/done count=3
+# [CHECK_COUNT] test=normal item=format_ok count=3
+# [CHECK_COUNT] test=normal item=monitor completions count=1
+# [CHECK_COUNT] test=normal item=monitor starts count=1
+# [CHECK_COUNT] test=normal item=payload sum count=3
+# [CHECK_COUNT] test=normal item=payload xor count=3
+# [CHECK_COUNT] test=normal item=reset busy/done count=1
+# [CHECK_COUNT] test=normal item=reset flags count=1
+# [CHECK_COUNT] test=normal item=reset result count=1
+# [CHECK_COUNT] test=normal item=result length count=3
+# [CHECK_COUNT] test=normal item=result type count=3
+# [CHECK_COUNT] test=normal item=start clears flags count=3
+# [CHECK_COUNT] test=normal item=start clears result count=3
+# [PASS] test=normal seed=1 frames=3 checks=45 expected_queue=0
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv(57)
+#    Time: 536 ns  Iteration: 0  Instance: /tb_lab2
+# Break in Module tb_lab2 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# End time: 02:29:57 on Oct 25,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0

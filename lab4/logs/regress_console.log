@@ -1,0 +1,1517 @@
+make: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4'
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do smoke 1 current_20261025_final_smoke_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_smoke_1
+# smoke
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_smoke_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_smoke_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/smoke_1_current_20261025_final_smoke_1
+# current_20261025_final_smoke_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_smoke_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:29:47 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_smoke_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:29:47 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:29:47 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_smoke_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:29:47 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_smoke_1/smoke_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/smoke_1_current_20261025_final_smoke_1/smoke_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_smoke_1/smoke_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_smoke_1/smoke_1.wlf tb_lab4 "+TESTNAME=smoke" "+SEED=1" 
+# Start time: 02:29:47 on Oct 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "packet_proc_core(fast)".
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=smoke seed=1
+# [BEGIN] test=smoke seed=1 branch=SV
+# [FRAME_PASS] test=smoke seed=1 frame=1 len=8 type=02 mode=1 mask=f sum=0a xor=04 errors=000
+# [FUNCTIONAL_COVERAGE] frame_cg=31.59% access_cg=69.21% total_mean=50.40% frames=1 accesses=27
+# [COV_POINT] group=frame point=length coverage=20.00%
+# [COV_GAP] group=frame point=length coverage=20.00%
+# [COV_POINT] group=frame point=kind coverage=20.00%
+# [COV_GAP] group=frame point=kind coverage=20.00%
+# [COV_POINT] group=frame point=mode coverage=50.00%
+# [COV_GAP] group=frame point=mode coverage=50.00%
+# [COV_POINT] group=frame point=mask coverage=33.33%
+# [COV_GAP] group=frame point=mask coverage=33.33%
+# [COV_POINT] group=frame point=type_permission coverage=33.33%
+# [COV_GAP] group=frame point=type_permission coverage=33.33%
+# [COV_POINT] group=frame point=expected_length coverage=33.33%
+# [COV_GAP] group=frame point=expected_length coverage=33.33%
+# [COV_POINT] group=frame point=irq_enable coverage=25.00%
+# [COV_GAP] group=frame point=irq_enable coverage=25.00%
+# [COV_POINT] group=frame point=outcome coverage=50.00%
+# [COV_GAP] group=frame point=outcome coverage=50.00%
+# [COV_POINT] group=frame point=error_combination coverage=20.00%
+# [COV_GAP] group=frame point=error_combination coverage=20.00%
+# [COV_POINT] group=frame point=sequence coverage=50.00%
+# [COV_GAP] group=frame point=sequence coverage=50.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=12.50%
+# [COV_GAP] group=frame point=length_by_outcome coverage=12.50%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=50.00%
+# [COV_GAP] group=access point=response coverage=50.00%
+# [COV_POINT] group=access point=busy_protection coverage=66.67%
+# [COV_GAP] group=access point=busy_protection coverage=66.67%
+# [COV_POINT] group=access point=irq_operation coverage=44.44%
+# [COV_GAP] group=access point=irq_operation coverage=44.44%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=smoke seed=1 frames=1 aborted=0 checks=518 accesses=27 busy_reads=1 done_reads=2 busy_rejects=0
+# [TEST_DONE] test=smoke seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 886 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=smoke seed=1 run_id=current_20261025_final_smoke_1 coverage=0 covset=final
+# End time: 02:30:05 on Oct 25,2026, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do frames 1 current_20261025_final_frames_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_frames_1
+# frames
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_frames_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_frames_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/frames_1_current_20261025_final_frames_1
+# current_20261025_final_frames_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_frames_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:30:18 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_frames_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:30:18 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:30:18 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_frames_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:30:18 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_frames_1/frames_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/frames_1_current_20261025_final_frames_1/frames_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_frames_1/frames_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_frames_1/frames_1.wlf tb_lab4 "+TESTNAME=frames" "+SEED=1" 
+# Start time: 02:30:18 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=frames seed=1
+# [BEGIN] test=frames seed=1 branch=SV
+# [FRAME_PASS] test=frames seed=1 frame=1 len=8 type=01 mode=1 mask=f sum=0a xor=04 errors=000
+# [FRAME_PASS] test=frames seed=1 frame=2 len=13 type=08 mode=1 mask=f sum=2d xor=01 errors=000
+# [FUNCTIONAL_COVERAGE] frame_cg=37.95% access_cg=69.21% total_mean=53.58% frames=2 accesses=55
+# [COV_POINT] group=frame point=length coverage=20.00%
+# [COV_GAP] group=frame point=length coverage=20.00%
+# [COV_POINT] group=frame point=kind coverage=40.00%
+# [COV_GAP] group=frame point=kind coverage=40.00%
+# [COV_POINT] group=frame point=mode coverage=50.00%
+# [COV_GAP] group=frame point=mode coverage=50.00%
+# [COV_POINT] group=frame point=mask coverage=33.33%
+# [COV_GAP] group=frame point=mask coverage=33.33%
+# [COV_POINT] group=frame point=type_permission coverage=33.33%
+# [COV_GAP] group=frame point=type_permission coverage=33.33%
+# [COV_POINT] group=frame point=expected_length coverage=33.33%
+# [COV_GAP] group=frame point=expected_length coverage=33.33%
+# [COV_POINT] group=frame point=irq_enable coverage=25.00%
+# [COV_GAP] group=frame point=irq_enable coverage=25.00%
+# [COV_POINT] group=frame point=outcome coverage=50.00%
+# [COV_GAP] group=frame point=outcome coverage=50.00%
+# [COV_POINT] group=frame point=error_combination coverage=20.00%
+# [COV_GAP] group=frame point=error_combination coverage=20.00%
+# [COV_POINT] group=frame point=sequence coverage=100.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=12.50%
+# [COV_GAP] group=frame point=length_by_outcome coverage=12.50%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=50.00%
+# [COV_GAP] group=access point=response coverage=50.00%
+# [COV_POINT] group=access point=busy_protection coverage=66.67%
+# [COV_GAP] group=access point=busy_protection coverage=66.67%
+# [COV_POINT] group=access point=irq_operation coverage=44.44%
+# [COV_GAP] group=access point=irq_operation coverage=44.44%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=frames seed=1 frames=2 aborted=0 checks=1108 accesses=55 busy_reads=3 done_reads=4 busy_rejects=0
+# [TEST_DONE] test=frames seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 1756 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=frames seed=1 run_id=current_20261025_final_frames_1 coverage=0 covset=final
+# End time: 02:30:34 on Oct 25,2026, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do status 1 current_20261025_final_status_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_status_1
+# status
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_status_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_status_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/status_1_current_20261025_final_status_1
+# current_20261025_final_status_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_status_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:30:48 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_status_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:30:48 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:30:48 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_status_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:30:48 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_status_1/status_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/status_1_current_20261025_final_status_1/status_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_status_1/status_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_status_1/status_1.wlf tb_lab4 "+TESTNAME=status" "+SEED=1" 
+# Start time: 02:30:48 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=status seed=1
+# [BEGIN] test=status seed=1 branch=SV
+# [FRAME_PASS] test=status seed=1 frame=1 len=32 type=04 mode=1 mask=f sum=96 xor=1c errors=000
+# [FUNCTIONAL_COVERAGE] frame_cg=31.59% access_cg=69.21% total_mean=50.40% frames=1 accesses=29
+# [COV_POINT] group=frame point=length coverage=20.00%
+# [COV_GAP] group=frame point=length coverage=20.00%
+# [COV_POINT] group=frame point=kind coverage=20.00%
+# [COV_GAP] group=frame point=kind coverage=20.00%
+# [COV_POINT] group=frame point=mode coverage=50.00%
+# [COV_GAP] group=frame point=mode coverage=50.00%
+# [COV_POINT] group=frame point=mask coverage=33.33%
+# [COV_GAP] group=frame point=mask coverage=33.33%
+# [COV_POINT] group=frame point=type_permission coverage=33.33%
+# [COV_GAP] group=frame point=type_permission coverage=33.33%
+# [COV_POINT] group=frame point=expected_length coverage=33.33%
+# [COV_GAP] group=frame point=expected_length coverage=33.33%
+# [COV_POINT] group=frame point=irq_enable coverage=25.00%
+# [COV_GAP] group=frame point=irq_enable coverage=25.00%
+# [COV_POINT] group=frame point=outcome coverage=50.00%
+# [COV_GAP] group=frame point=outcome coverage=50.00%
+# [COV_POINT] group=frame point=error_combination coverage=20.00%
+# [COV_GAP] group=frame point=error_combination coverage=20.00%
+# [COV_POINT] group=frame point=sequence coverage=50.00%
+# [COV_GAP] group=frame point=sequence coverage=50.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=12.50%
+# [COV_GAP] group=frame point=length_by_outcome coverage=12.50%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=50.00%
+# [COV_GAP] group=access point=response coverage=50.00%
+# [COV_POINT] group=access point=busy_protection coverage=66.67%
+# [COV_GAP] group=access point=busy_protection coverage=66.67%
+# [COV_POINT] group=access point=irq_operation coverage=44.44%
+# [COV_GAP] group=access point=irq_operation coverage=44.44%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=status seed=1 frames=1 aborted=0 checks=550 accesses=29 busy_reads=3 done_reads=2 busy_rejects=0
+# [TEST_DONE] test=status seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 946 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=status seed=1 run_id=current_20261025_final_status_1 coverage=0 covset=final
+# End time: 02:31:03 on Oct 25,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do busy 1 current_20261025_final_busy_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_busy_1
+# busy
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_busy_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_busy_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/busy_1_current_20261025_final_busy_1
+# current_20261025_final_busy_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_busy_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:31:15 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_busy_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:31:15 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:31:15 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_busy_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:31:15 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_busy_1/busy_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/busy_1_current_20261025_final_busy_1/busy_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_busy_1/busy_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_busy_1/busy_1.wlf tb_lab4 "+TESTNAME=busy" "+SEED=1" 
+# Start time: 02:31:15 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=busy seed=1
+# [BEGIN] test=busy seed=1 branch=SV
+# [FRAME_PASS] test=busy seed=1 frame=1 len=32 type=02 mode=1 mask=f sum=96 xor=1c errors=000
+# [FUNCTIONAL_COVERAGE] frame_cg=31.59% access_cg=83.10% total_mean=57.35% frames=1 accesses=30
+# [COV_POINT] group=frame point=length coverage=20.00%
+# [COV_GAP] group=frame point=length coverage=20.00%
+# [COV_POINT] group=frame point=kind coverage=20.00%
+# [COV_GAP] group=frame point=kind coverage=20.00%
+# [COV_POINT] group=frame point=mode coverage=50.00%
+# [COV_GAP] group=frame point=mode coverage=50.00%
+# [COV_POINT] group=frame point=mask coverage=33.33%
+# [COV_GAP] group=frame point=mask coverage=33.33%
+# [COV_POINT] group=frame point=type_permission coverage=33.33%
+# [COV_GAP] group=frame point=type_permission coverage=33.33%
+# [COV_POINT] group=frame point=expected_length coverage=33.33%
+# [COV_GAP] group=frame point=expected_length coverage=33.33%
+# [COV_POINT] group=frame point=irq_enable coverage=25.00%
+# [COV_GAP] group=frame point=irq_enable coverage=25.00%
+# [COV_POINT] group=frame point=outcome coverage=50.00%
+# [COV_GAP] group=frame point=outcome coverage=50.00%
+# [COV_POINT] group=frame point=error_combination coverage=20.00%
+# [COV_GAP] group=frame point=error_combination coverage=20.00%
+# [COV_POINT] group=frame point=sequence coverage=50.00%
+# [COV_GAP] group=frame point=sequence coverage=50.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=12.50%
+# [COV_GAP] group=frame point=length_by_outcome coverage=12.50%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=100.00%
+# [COV_POINT] group=access point=busy_protection coverage=100.00%
+# [COV_POINT] group=access point=irq_operation coverage=44.44%
+# [COV_GAP] group=access point=irq_operation coverage=44.44%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=busy seed=1 frames=1 aborted=0 checks=566 accesses=30 busy_reads=0 done_reads=2 busy_rejects=1
+# [TEST_DONE] test=busy seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 976 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=busy seed=1 run_id=current_20261025_final_busy_1 coverage=0 covset=final
+# End time: 02:31:29 on Oct 25,2026, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do irq 1 current_20261025_final_irq_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_irq_1
+# irq
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_irq_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_irq_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/irq_1_current_20261025_final_irq_1
+# current_20261025_final_irq_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_irq_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:31:41 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_irq_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:31:41 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:31:41 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_irq_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:31:41 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_irq_1/irq_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/irq_1_current_20261025_final_irq_1/irq_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_irq_1/irq_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_irq_1/irq_1.wlf tb_lab4 "+TESTNAME=irq" "+SEED=1" 
+# Start time: 02:31:41 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=irq seed=1
+# [BEGIN] test=irq seed=1 branch=SV
+# [FRAME_PASS] test=irq seed=1 frame=1 len=8 type=01 mode=1 mask=f sum=0a xor=04 errors=000
+# [FRAME_PASS] test=irq seed=1 frame=2 len=12 type=02 mode=1 mask=f sum=24 xor=08 errors=000
+# [FRAME_PASS] test=irq seed=1 frame=3 len=8 type=04 mode=1 mask=f sum=0a xor=04 errors=100
+# [FUNCTIONAL_COVERAGE] frame_cg=51.82% access_cg=82.18% total_mean=67.00% frames=3 accesses=83
+# [COV_POINT] group=frame point=length coverage=20.00%
+# [COV_GAP] group=frame point=length coverage=20.00%
+# [COV_POINT] group=frame point=kind coverage=60.00%
+# [COV_GAP] group=frame point=kind coverage=60.00%
+# [COV_POINT] group=frame point=mode coverage=50.00%
+# [COV_GAP] group=frame point=mode coverage=50.00%
+# [COV_POINT] group=frame point=mask coverage=33.33%
+# [COV_GAP] group=frame point=mask coverage=33.33%
+# [COV_POINT] group=frame point=type_permission coverage=33.33%
+# [COV_GAP] group=frame point=type_permission coverage=33.33%
+# [COV_POINT] group=frame point=expected_length coverage=33.33%
+# [COV_GAP] group=frame point=expected_length coverage=33.33%
+# [COV_POINT] group=frame point=irq_enable coverage=75.00%
+# [COV_GAP] group=frame point=irq_enable coverage=75.00%
+# [COV_POINT] group=frame point=outcome coverage=100.00%
+# [COV_POINT] group=frame point=error_combination coverage=40.00%
+# [COV_GAP] group=frame point=error_combination coverage=40.00%
+# [COV_POINT] group=frame point=sequence coverage=100.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=25.00%
+# [COV_GAP] group=frame point=length_by_outcome coverage=25.00%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=50.00%
+# [COV_GAP] group=access point=response coverage=50.00%
+# [COV_POINT] group=access point=busy_protection coverage=66.67%
+# [COV_GAP] group=access point=busy_protection coverage=66.67%
+# [COV_POINT] group=access point=irq_operation coverage=88.89%
+# [COV_GAP] group=access point=irq_operation coverage=88.89%
+# [COV_POINT] group=access point=irq_after_clear coverage=100.00%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=irq seed=1 frames=3 aborted=0 checks=1695 accesses=83 busy_reads=3 done_reads=6 busy_rejects=0
+# [TEST_DONE] test=irq seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 2616 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=irq seed=1 run_id=current_20261025_final_irq_1 coverage=0 covset=final
+# End time: 02:31:54 on Oct 25,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do errors 1 current_20261025_final_errors_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_errors_1
+# errors
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_errors_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_errors_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/errors_1_current_20261025_final_errors_1
+# current_20261025_final_errors_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_errors_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:32:05 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_errors_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:32:05 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:32:05 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_errors_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:32:05 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_errors_1/errors_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/errors_1_current_20261025_final_errors_1/errors_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_errors_1/errors_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_errors_1/errors_1.wlf tb_lab4 "+TESTNAME=errors" "+SEED=1" 
+# Start time: 02:32:05 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=errors seed=1
+# [BEGIN] test=errors seed=1 branch=SV
+# [FRAME_PASS] test=errors seed=1 frame=1 len=3 type=01 mode=1 mask=f sum=00 xor=00 errors=001
+# [FRAME_PASS] test=errors seed=1 frame=2 len=33 type=01 mode=1 mask=f sum=00 xor=00 errors=001
+# [FRAME_PASS] test=errors seed=1 frame=3 len=8 type=03 mode=1 mask=f sum=0a xor=04 errors=010
+# [FRAME_PASS] test=errors seed=1 frame=4 len=8 type=01 mode=1 mask=e sum=0a xor=04 errors=010
+# [FRAME_PASS] test=errors seed=1 frame=5 len=8 type=02 mode=1 mask=f sum=0a xor=04 errors=100
+# [FRAME_PASS] test=errors seed=1 frame=6 len=8 type=02 mode=0 mask=f sum=0a xor=04 errors=000
+# [FUNCTIONAL_COVERAGE] frame_cg=70.45% access_cg=79.63% total_mean=75.04% frames=6 accesses=222
+# [COV_POINT] group=frame point=length coverage=60.00%
+# [COV_GAP] group=frame point=length coverage=60.00%
+# [COV_POINT] group=frame point=kind coverage=60.00%
+# [COV_GAP] group=frame point=kind coverage=60.00%
+# [COV_POINT] group=frame point=mode coverage=100.00%
+# [COV_POINT] group=frame point=mask coverage=66.67%
+# [COV_GAP] group=frame point=mask coverage=66.67%
+# [COV_POINT] group=frame point=type_permission coverage=100.00%
+# [COV_POINT] group=frame point=expected_length coverage=33.33%
+# [COV_GAP] group=frame point=expected_length coverage=33.33%
+# [COV_POINT] group=frame point=irq_enable coverage=25.00%
+# [COV_GAP] group=frame point=irq_enable coverage=25.00%
+# [COV_POINT] group=frame point=outcome coverage=100.00%
+# [COV_POINT] group=frame point=error_combination coverage=80.00%
+# [COV_GAP] group=frame point=error_combination coverage=80.00%
+# [COV_POINT] group=frame point=sequence coverage=100.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=50.00%
+# [COV_GAP] group=frame point=length_by_outcome coverage=50.00%
+# [COV_POINT] group=access point=address_target coverage=100.00%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=100.00%
+# [COV_POINT] group=access point=busy_protection coverage=66.67%
+# [COV_GAP] group=access point=busy_protection coverage=66.67%
+# [COV_POINT] group=access point=irq_operation coverage=44.44%
+# [COV_GAP] group=access point=irq_operation coverage=44.44%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=errors seed=1 frames=6 aborted=0 checks=4264 accesses=222 busy_reads=6 done_reads=12 busy_rejects=0
+# [TEST_DONE] test=errors seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 6876 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=errors seed=1 run_id=current_20261025_final_errors_1 coverage=0 covset=final
+# End time: 02:32:18 on Oct 25,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do csr 1 current_20261025_final_csr_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_csr_1
+# csr
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_csr_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_csr_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/csr_1_current_20261025_final_csr_1
+# current_20261025_final_csr_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_csr_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:32:28 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_csr_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:32:29 on Oct 25,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:32:29 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_csr_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:32:29 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_csr_1/csr_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/csr_1_current_20261025_final_csr_1/csr_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_csr_1/csr_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_csr_1/csr_1.wlf tb_lab4 "+TESTNAME=csr" "+SEED=1" 
+# Start time: 02:32:29 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=csr seed=1
+# [BEGIN] test=csr seed=1 branch=SV
+# [FUNCTIONAL_COVERAGE] frame_cg=0.00% access_cg=56.02% total_mean=28.01% frames=0 accesses=41
+# [COV_POINT] group=frame point=length coverage=0.00%
+# [COV_GAP] group=frame point=length coverage=0.00%
+# [COV_POINT] group=frame point=kind coverage=0.00%
+# [COV_GAP] group=frame point=kind coverage=0.00%
+# [COV_POINT] group=frame point=mode coverage=0.00%
+# [COV_GAP] group=frame point=mode coverage=0.00%
+# [COV_POINT] group=frame point=mask coverage=0.00%
+# [COV_GAP] group=frame point=mask coverage=0.00%
+# [COV_POINT] group=frame point=type_permission coverage=0.00%
+# [COV_GAP] group=frame point=type_permission coverage=0.00%
+# [COV_POINT] group=frame point=expected_length coverage=0.00%
+# [COV_GAP] group=frame point=expected_length coverage=0.00%
+# [COV_POINT] group=frame point=irq_enable coverage=0.00%
+# [COV_GAP] group=frame point=irq_enable coverage=0.00%
+# [COV_POINT] group=frame point=outcome coverage=0.00%
+# [COV_GAP] group=frame point=outcome coverage=0.00%
+# [COV_POINT] group=frame point=error_combination coverage=0.00%
+# [COV_GAP] group=frame point=error_combination coverage=0.00%
+# [COV_POINT] group=frame point=sequence coverage=0.00%
+# [COV_GAP] group=frame point=sequence coverage=0.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=0.00%
+# [COV_GAP] group=frame point=length_by_outcome coverage=0.00%
+# [COV_POINT] group=access point=address_target coverage=75.00%
+# [COV_GAP] group=access point=address_target coverage=75.00%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=50.00%
+# [COV_GAP] group=access point=response coverage=50.00%
+# [COV_POINT] group=access point=busy_protection coverage=33.33%
+# [COV_GAP] group=access point=busy_protection coverage=33.33%
+# [COV_POINT] group=access point=irq_operation coverage=44.44%
+# [COV_GAP] group=access point=irq_operation coverage=44.44%
+# [COV_POINT] group=access point=irq_after_clear coverage=33.33%
+# [COV_GAP] group=access point=irq_after_clear coverage=33.33%
+# [COV_GAP] group=frame no checked frame observations sampled
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=csr seed=1 frames=0 aborted=0 checks=630 accesses=41 busy_reads=0 done_reads=0 busy_rejects=0
+# [TEST_DONE] test=csr seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 1286 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=csr seed=1 run_id=current_20261025_final_csr_1 coverage=0 covset=final
+# End time: 02:32:42 on Oct 25,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do memory 1 current_20261025_final_memory_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_memory_1
+# memory
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_memory_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_memory_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/memory_1_current_20261025_final_memory_1
+# current_20261025_final_memory_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_memory_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:32:51 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_memory_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:32:52 on Oct 25,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:32:52 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_memory_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:32:52 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_memory_1/memory_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/memory_1_current_20261025_final_memory_1/memory_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_memory_1/memory_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_memory_1/memory_1.wlf tb_lab4 "+TESTNAME=memory" "+SEED=1" 
+# Start time: 02:32:52 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=memory seed=1
+# [BEGIN] test=memory seed=1 branch=SV
+# [FUNCTIONAL_COVERAGE] frame_cg=0.00% access_cg=45.60% total_mean=22.80% frames=0 accesses=20
+# [COV_POINT] group=frame point=length coverage=0.00%
+# [COV_GAP] group=frame point=length coverage=0.00%
+# [COV_POINT] group=frame point=kind coverage=0.00%
+# [COV_GAP] group=frame point=kind coverage=0.00%
+# [COV_POINT] group=frame point=mode coverage=0.00%
+# [COV_GAP] group=frame point=mode coverage=0.00%
+# [COV_POINT] group=frame point=mask coverage=0.00%
+# [COV_GAP] group=frame point=mask coverage=0.00%
+# [COV_POINT] group=frame point=type_permission coverage=0.00%
+# [COV_GAP] group=frame point=type_permission coverage=0.00%
+# [COV_POINT] group=frame point=expected_length coverage=0.00%
+# [COV_GAP] group=frame point=expected_length coverage=0.00%
+# [COV_POINT] group=frame point=irq_enable coverage=0.00%
+# [COV_GAP] group=frame point=irq_enable coverage=0.00%
+# [COV_POINT] group=frame point=outcome coverage=0.00%
+# [COV_GAP] group=frame point=outcome coverage=0.00%
+# [COV_POINT] group=frame point=error_combination coverage=0.00%
+# [COV_GAP] group=frame point=error_combination coverage=0.00%
+# [COV_POINT] group=frame point=sequence coverage=0.00%
+# [COV_GAP] group=frame point=sequence coverage=0.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=0.00%
+# [COV_GAP] group=frame point=length_by_outcome coverage=0.00%
+# [COV_POINT] group=access point=address_target coverage=12.50%
+# [COV_GAP] group=access point=address_target coverage=12.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=50.00%
+# [COV_GAP] group=access point=response coverage=50.00%
+# [COV_POINT] group=access point=busy_protection coverage=66.67%
+# [COV_GAP] group=access point=busy_protection coverage=66.67%
+# [COV_POINT] group=access point=irq_operation coverage=11.11%
+# [COV_GAP] group=access point=irq_operation coverage=11.11%
+# [COV_POINT] group=access point=irq_after_clear coverage=33.33%
+# [COV_GAP] group=access point=irq_after_clear coverage=33.33%
+# [COV_GAP] group=frame no checked frame observations sampled
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=memory seed=1 frames=0 aborted=0 checks=320 accesses=20 busy_reads=0 done_reads=0 busy_rejects=0
+# [TEST_DONE] test=memory seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 656 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=memory seed=1 run_id=current_20261025_final_memory_1 coverage=0 covset=final
+# End time: 02:33:02 on Oct 25,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do random 1 current_20261025_final_random_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_random_1
+# random
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_random_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_random_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/random_1_current_20261025_final_random_1
+# current_20261025_final_random_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_random_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:33:12 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_random_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:33:12 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:33:12 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_random_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:33:12 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_random_1/random_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/random_1_current_20261025_final_random_1/random_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_random_1/random_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_random_1/random_1.wlf tb_lab4 "+TESTNAME=random" "+SEED=1" 
+# Start time: 02:33:12 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=random seed=1
+# [BEGIN] test=random seed=1 branch=SV
+# [RANDOM_PACKET] seed=1 length=7 kind=04 mode=1 first_payload=87
+# [RANDOM_PACKET] seed=1 length=16 kind=08 mode=1 first_payload=75
+# [RANDOM_PACKET] seed=1 length=13 kind=08 mode=0 first_payload=6a
+# [RANDOM_PACKET] seed=1 length=20 kind=02 mode=0 first_payload=7f
+# [FRAME_PASS] test=random seed=1 frame=1 len=7 type=04 mode=1 mask=f sum=b5 xor=49 errors=000
+# [RANDOM_PACKET] seed=1 length=8 kind=04 mode=1 first_payload=41
+# [FRAME_PASS] test=random seed=1 frame=2 len=16 type=08 mode=1 mask=f sum=3a xor=58 errors=000
+# [RANDOM_PACKET] seed=1 length=19 kind=04 mode=0 first_payload=79
+# [FRAME_PASS] test=random seed=1 frame=3 len=13 type=08 mode=0 mask=f sum=b4 xor=6e errors=000
+# [RANDOM_PACKET] seed=1 length=29 kind=02 mode=0 first_payload=8a
+# [FRAME_PASS] test=random seed=1 frame=4 len=20 type=02 mode=0 mask=f sum=f4 xor=44 errors=000
+# [RANDOM_PACKET] seed=1 length=22 kind=02 mode=1 first_payload=c9
+# [FRAME_PASS] test=random seed=1 frame=5 len=8 type=04 mode=1 mask=f sum=46 xor=ca errors=000
+# [RANDOM_PACKET] seed=1 length=19 kind=04 mode=1 first_payload=39
+# [FRAME_PASS] test=random seed=1 frame=6 len=19 type=04 mode=0 mask=f sum=39 xor=ab errors=000
+# [RANDOM_PACKET] seed=1 length=22 kind=08 mode=0 first_payload=52
+# [FRAME_PASS] test=random seed=1 frame=7 len=29 type=02 mode=0 mask=f sum=0d xor=2f errors=000
+# [RANDOM_PACKET] seed=1 length=9 kind=08 mode=0 first_payload=2b
+# [FRAME_PASS] test=random seed=1 frame=8 len=22 type=02 mode=1 mask=f sum=6a xor=0a errors=000
+# [RANDOM_PACKET] seed=1 length=13 kind=02 mode=1 first_payload=e3
+# [FRAME_PASS] test=random seed=1 frame=9 len=19 type=04 mode=1 mask=f sum=65 xor=a3 errors=000
+# [FRAME_PASS] test=random seed=1 frame=10 len=22 type=08 mode=0 mask=f sum=f6 xor=3c errors=000
+# [FRAME_PASS] test=random seed=1 frame=11 len=9 type=08 mode=0 mask=f sum=e2 xor=e8 errors=000
+# [FRAME_PASS] test=random seed=1 frame=12 len=13 type=02 mode=1 mask=f sum=ab xor=5b errors=000
+# [FUNCTIONAL_COVERAGE] frame_cg=44.32% access_cg=69.21% total_mean=56.77% frames=12 accesses=334
+# [COV_POINT] group=frame point=length coverage=20.00%
+# [COV_GAP] group=frame point=length coverage=20.00%
+# [COV_POINT] group=frame point=kind coverage=60.00%
+# [COV_GAP] group=frame point=kind coverage=60.00%
+# [COV_POINT] group=frame point=mode coverage=100.00%
+# [COV_POINT] group=frame point=mask coverage=33.33%
+# [COV_GAP] group=frame point=mask coverage=33.33%
+# [COV_POINT] group=frame point=type_permission coverage=33.33%
+# [COV_GAP] group=frame point=type_permission coverage=33.33%
+# [COV_POINT] group=frame point=expected_length coverage=33.33%
+# [COV_GAP] group=frame point=expected_length coverage=33.33%
+# [COV_POINT] group=frame point=irq_enable coverage=25.00%
+# [COV_GAP] group=frame point=irq_enable coverage=25.00%
+# [COV_POINT] group=frame point=outcome coverage=50.00%
+# [COV_GAP] group=frame point=outcome coverage=50.00%
+# [COV_POINT] group=frame point=error_combination coverage=20.00%
+# [COV_GAP] group=frame point=error_combination coverage=20.00%
+# [COV_POINT] group=frame point=sequence coverage=100.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=12.50%
+# [COV_GAP] group=frame point=length_by_outcome coverage=12.50%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=50.00%
+# [COV_GAP] group=access point=response coverage=50.00%
+# [COV_POINT] group=access point=busy_protection coverage=66.67%
+# [COV_GAP] group=access point=busy_protection coverage=66.67%
+# [COV_POINT] group=access point=irq_operation coverage=44.44%
+# [COV_GAP] group=access point=irq_operation coverage=44.44%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=random seed=1 frames=12 aborted=0 checks=7006 accesses=334 busy_reads=22 done_reads=24 busy_rejects=0
+# [TEST_DONE] test=random seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 10486 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=random seed=1 run_id=current_20261025_final_random_1 coverage=0 covset=final
+# End time: 02:33:22 on Oct 25,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do extension 1 current_20261025_final_extension_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_extension_1
+# extension
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_extension_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_extension_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/extension_1_current_20261025_final_extension_1
+# current_20261025_final_extension_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_extension_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:33:32 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_extension_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:33:32 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:33:32 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_extension_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:33:32 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_extension_1/extension_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/extension_1_current_20261025_final_extension_1/extension_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_extension_1/extension_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_extension_1/extension_1.wlf tb_lab4 "+TESTNAME=extension" "+SEED=1" 
+# Start time: 02:33:32 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=extension seed=1
+# [BEGIN] test=extension seed=1 branch=SV
+# [FRAME_PASS] test=extension seed=1 frame=1 len=7 type=04 mode=1 mask=f sum=06 xor=f8 errors=000
+# [FRAME_PASS] test=extension seed=1 frame=2 len=13 type=08 mode=1 mask=f sum=fa xor=aa errors=000
+# [FRAME_PASS] test=extension seed=1 frame=3 len=12 type=02 mode=1 mask=f sum=24 xor=08 errors=001
+# [FRAME_PASS] test=extension seed=1 frame=4 len=3 type=03 mode=1 mask=f sum=00 xor=00 errors=111
+# [FUNCTIONAL_COVERAGE] frame_cg=59.92% access_cg=69.21% total_mean=64.57% frames=4 accesses=109
+# [COV_POINT] group=frame point=length coverage=40.00%
+# [COV_GAP] group=frame point=length coverage=40.00%
+# [COV_POINT] group=frame point=kind coverage=80.00%
+# [COV_GAP] group=frame point=kind coverage=80.00%
+# [COV_POINT] group=frame point=mode coverage=50.00%
+# [COV_GAP] group=frame point=mode coverage=50.00%
+# [COV_POINT] group=frame point=mask coverage=33.33%
+# [COV_GAP] group=frame point=mask coverage=33.33%
+# [COV_POINT] group=frame point=type_permission coverage=66.67%
+# [COV_GAP] group=frame point=type_permission coverage=66.67%
+# [COV_POINT] group=frame point=expected_length coverage=66.67%
+# [COV_GAP] group=frame point=expected_length coverage=66.67%
+# [COV_POINT] group=frame point=irq_enable coverage=25.00%
+# [COV_GAP] group=frame point=irq_enable coverage=25.00%
+# [COV_POINT] group=frame point=outcome coverage=100.00%
+# [COV_POINT] group=frame point=error_combination coverage=60.00%
+# [COV_GAP] group=frame point=error_combination coverage=60.00%
+# [COV_POINT] group=frame point=sequence coverage=100.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=37.50%
+# [COV_GAP] group=frame point=length_by_outcome coverage=37.50%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=50.00%
+# [COV_GAP] group=access point=response coverage=50.00%
+# [COV_POINT] group=access point=busy_protection coverage=66.67%
+# [COV_GAP] group=access point=busy_protection coverage=66.67%
+# [COV_POINT] group=access point=irq_operation coverage=44.44%
+# [COV_GAP] group=access point=irq_operation coverage=44.44%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=extension seed=1 frames=4 aborted=0 checks=2246 accesses=109 busy_reads=5 done_reads=8 busy_rejects=0
+# [TEST_DONE] test=extension seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 3426 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=extension seed=1 run_id=current_20261025_final_extension_1 coverage=0 covset=final
+# End time: 02:33:45 on Oct 25,2026, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do coverage 1 current_20261025_final_coverage_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_coverage_1
+# coverage
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_coverage_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_coverage_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/coverage_1_current_20261025_final_coverage_1
+# current_20261025_final_coverage_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_coverage_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:33:56 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_coverage_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:33:56 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:33:56 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_coverage_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:33:56 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_coverage_1/coverage_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/coverage_1_current_20261025_final_coverage_1/coverage_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_coverage_1/coverage_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_coverage_1/coverage_1.wlf tb_lab4 "+TESTNAME=coverage" "+SEED=1" 
+# Start time: 02:33:56 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=coverage seed=1
+# [BEGIN] test=coverage seed=1 branch=SV
+# [FRAME_PASS] test=coverage seed=1 frame=1 len=4 type=01 mode=1 mask=f sum=00 xor=00 errors=000
+# [FRAME_PASS] test=coverage seed=1 frame=2 len=4 type=02 mode=0 mask=f sum=00 xor=00 errors=001
+# [FRAME_PASS] test=coverage seed=1 frame=3 len=16 type=02 mode=0 mask=f sum=94 xor=f8 errors=000
+# [FRAME_PASS] test=coverage seed=1 frame=4 len=32 type=04 mode=1 mask=f sum=c2 xor=80 errors=000
+# [FRAME_PASS] test=coverage seed=1 frame=5 len=32 type=04 mode=1 mask=f sum=61 xor=17 errors=100
+# [FRAME_PASS] test=coverage seed=1 frame=6 len=3 type=08 mode=1 mask=f sum=00 xor=00 errors=001
+# [FRAME_PASS] test=coverage seed=1 frame=7 len=33 type=01 mode=1 mask=f sum=00 xor=00 errors=001
+# [FRAME_PASS] test=coverage seed=1 frame=8 len=8 type=03 mode=1 mask=f sum=c5 xor=bf errors=010
+# [FRAME_PASS] test=coverage seed=1 frame=9 len=8 type=01 mode=0 mask=e sum=e8 xor=e8 errors=010
+# [FRAME_PASS] test=coverage seed=1 frame=10 len=12 type=02 mode=1 mask=0 sum=a1 xor=ff errors=010
+# [FRAME_PASS] test=coverage seed=1 frame=11 len=12 type=02 mode=0 mask=f sum=42 xor=7a errors=001
+# [FRAME_PASS] test=coverage seed=1 frame=12 len=8 type=02 mode=1 mask=f sum=38 xor=5a errors=100
+# [FRAME_PASS] test=coverage seed=1 frame=13 len=8 type=04 mode=0 mask=f sum=f4 xor=8e errors=000
+# [FRAME_PASS] test=coverage seed=1 frame=14 len=8 type=03 mode=1 mask=0 sum=b0 xor=22 errors=111
+# [FUNCTIONAL_COVERAGE] frame_cg=100.00% access_cg=97.92% total_mean=98.96% frames=14 accesses=390
+# [COV_POINT] group=frame point=length coverage=100.00%
+# [COV_POINT] group=frame point=kind coverage=100.00%
+# [COV_POINT] group=frame point=mode coverage=100.00%
+# [COV_POINT] group=frame point=mask coverage=100.00%
+# [COV_POINT] group=frame point=type_permission coverage=100.00%
+# [COV_POINT] group=frame point=expected_length coverage=100.00%
+# [COV_POINT] group=frame point=irq_enable coverage=100.00%
+# [COV_POINT] group=frame point=outcome coverage=100.00%
+# [COV_POINT] group=frame point=error_combination coverage=100.00%
+# [COV_POINT] group=frame point=sequence coverage=100.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=100.00%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=100.00%
+# [COV_POINT] group=access point=busy_protection coverage=100.00%
+# [COV_POINT] group=access point=irq_operation coverage=100.00%
+# [COV_POINT] group=access point=irq_after_clear coverage=100.00%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=coverage seed=1 frames=14 aborted=0 checks=8215 accesses=390 busy_reads=16 done_reads=28 busy_rejects=1
+# [TEST_DONE] test=coverage seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 12226 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=coverage seed=1 run_id=current_20261025_final_coverage_1 coverage=0 covset=final
+# End time: 02:34:10 on Oct 25,2026, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do closure 1 current_20261025_final_closure_1 normal final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# current_20261025_final_closure_1
+# closure
+# 1
+# 0
+# final
+# final
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_closure_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_closure_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/closure_1_current_20261025_final_closure_1
+# current_20261025_final_closure_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_closure_1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:34:19 on Oct 25,2026
+# vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_closure_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv 
+# -- Compiling module apb_slave_if
+# -- Compiling module packet_sram
+# -- Compiling module packet_proc_core
+# -- Compiling module ppa_top
+# 
+# Top level modules:
+# 	ppa_top
+# End time: 02:34:19 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:34:19 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_closure_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+# -- Compiling interface ppa_if
+# -- Compiling package lab3_pkg
+# -- Compiling package lab4_pkg
+# -- Importing package lab3_pkg
+# -- Compiling module tb_lab4
+# -- Importing package lab4_pkg
+# 
+# Top level modules:
+# 	tb_lab4
+# End time: 02:34:19 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_closure_1/closure_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/coverage/final/closure_1_current_20261025_final_closure_1/closure_1.ucdb
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_closure_1/closure_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/waves/current_20261025_final_closure_1/closure_1.wlf tb_lab4 "+TESTNAME=closure" "+SEED=1" 
+# Start time: 02:34:19 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=closure seed=1
+# [BEGIN] test=closure seed=1 branch=SV
+# [FRAME_PASS] test=closure seed=1 frame=1 len=255 type=ff mode=1 mask=0 sum=00 xor=00 errors=011
+# [FRAME_PASS] test=closure seed=1 frame=2 len=0 type=01 mode=1 mask=f sum=00 xor=00 errors=001
+# [FRAME_PASS] test=closure seed=1 frame=3 len=32 type=08 mode=1 mask=f sum=96 xor=1c errors=000
+# [FRAME_PASS] test=closure seed=1 frame=4 len=8 type=01 mode=0 mask=f sum=fc xor=00 errors=000
+# [FRAME_ABORT] reset accepted during PROCESS
+# [FUNCTIONAL_COVERAGE] frame_cg=78.03% access_cg=86.81% total_mean=82.42% frames=4 accesses=133
+# [COV_POINT] group=frame point=length coverage=80.00%
+# [COV_GAP] group=frame point=length coverage=80.00%
+# [COV_POINT] group=frame point=kind coverage=60.00%
+# [COV_GAP] group=frame point=kind coverage=60.00%
+# [COV_POINT] group=frame point=mode coverage=100.00%
+# [COV_POINT] group=frame point=mask coverage=66.67%
+# [COV_GAP] group=frame point=mask coverage=66.67%
+# [COV_POINT] group=frame point=type_permission coverage=66.67%
+# [COV_GAP] group=frame point=type_permission coverage=66.67%
+# [COV_POINT] group=frame point=expected_length coverage=100.00%
+# [COV_POINT] group=frame point=irq_enable coverage=75.00%
+# [COV_GAP] group=frame point=irq_enable coverage=75.00%
+# [COV_POINT] group=frame point=outcome coverage=100.00%
+# [COV_POINT] group=frame point=error_combination coverage=60.00%
+# [COV_GAP] group=frame point=error_combination coverage=60.00%
+# [COV_POINT] group=frame point=sequence coverage=100.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=50.00%
+# [COV_GAP] group=frame point=length_by_outcome coverage=50.00%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=100.00%
+# [COV_POINT] group=access point=busy_protection coverage=100.00%
+# [COV_POINT] group=access point=irq_operation coverage=66.67%
+# [COV_GAP] group=access point=irq_operation coverage=66.67%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=closure seed=1 frames=4 aborted=1 checks=2633 accesses=133 busy_reads=3 done_reads=8 busy_rejects=1
+# [TEST_DONE] test=closure seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv(64)
+#    Time: 4246 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv line 64
+# 1
+LAB4_PASS test=closure seed=1 run_id=current_20261025_final_closure_1 coverage=0 covset=final
+# End time: 02:34:31 on Oct 25,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0
+make: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4'

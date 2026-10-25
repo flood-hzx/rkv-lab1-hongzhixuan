@@ -1,0 +1,14 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 02:31:15 on Oct 25,2026
+vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/logs/current_20261025_final_busy_1/compile_tb.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/lab4_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab4/tb_lab4.sv 
+-- Compiling interface ppa_if
+-- Compiling package lab3_pkg
+-- Compiling package lab4_pkg
+-- Importing package lab3_pkg
+-- Compiling module tb_lab4
+-- Importing package lab4_pkg
+
+Top level modules:
+	tb_lab4
+End time: 02:31:15 on Oct 25,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

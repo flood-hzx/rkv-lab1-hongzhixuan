@@ -1,0 +1,16 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 02:32:27 on Oct 25,2026
+vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/work_lab3 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/logs/current_20261025_extension_1/compile.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_top.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/ppa_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/lab3_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab3/tb_lab3.sv 
+-- Compiling module apb_slave_if
+-- Compiling module packet_sram
+-- Compiling module packet_proc_core
+-- Compiling module ppa_top
+-- Compiling interface ppa_if
+-- Compiling package lab3_pkg
+-- Compiling module tb_lab3
+-- Importing package lab3_pkg
+
+Top level modules:
+	tb_lab3
+End time: 02:32:27 on Oct 25,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

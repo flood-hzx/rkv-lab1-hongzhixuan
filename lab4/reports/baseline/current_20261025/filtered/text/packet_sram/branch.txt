@@ -1,0 +1,46 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.packet_sram
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         8         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for Design Unit work.packet_sram
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab1/packet_sram.sv
+------------------------------------IF Branch------------------------------------
+    20                                      2152     Count coming in to IF
+    20              1                         20     
+    23              1                       2132     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    24                                      2132     Count coming in to IF
+    24              1                        251     
+                                            1881     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    25                                      2132     Count coming in to IF
+    25              1                        135     
+                                            1997     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    26                                      2132     Count coming in to IF
+    26              1                         32     
+                                            2100     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+
+
+Total Coverage By Design Unit (filtered view): 100.00%
+

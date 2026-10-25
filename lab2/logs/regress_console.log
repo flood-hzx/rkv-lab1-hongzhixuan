@@ -1,0 +1,605 @@
+make: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+E:/extension/GnuWin32/bin/make run TESTNAME=normal SEED=1 RUN_ID=current_20261025
+make[1]: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+vsim -c -do "do batch.do normal 1 current_20261025"
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do normal 1 current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# normal
+# 1
+# 20261025_022947_56672_1792866587141305
+# normal
+# 1
+# current_20261025
+# normal_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/normal_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/normal_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:29:47 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/normal_1/compile.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/proc_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/lab2_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv 
+# -- Compiling interface proc_if
+# -- Compiling package lab2_pkg
+# -- Compiling module packet_proc_core
+# -- Compiling module tb_lab2
+# -- Importing package lab2_pkg
+# 
+# Top level modules:
+# 	tb_lab2
+# End time: 02:29:47 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -voptargs="+acc" -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/normal_1/run.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/normal_1.wlf tb_lab2 "+TESTNAME=normal" "+SEED=1" 
+# Start time: 02:29:47 on Oct 25,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "packet_proc_core(fast)".
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.proc_if(fast)
+# Loading work.lab2_pkg(fast)
+# Loading work.tb_lab2(fast)
+# Loading work.proc_if(fast__2)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=normal class=normal_test seed=1 clock_ns=10 memory_words=8 sync_read=1 payload_pattern=directed
+# [FRAME_START] test=normal frame=1 len=4 type=01 mode=1 mask=f exp_len=0 payload_bytes=0
+# [MEM_READ] time=135 ns address=0
+# [MEM_READ] time=145 ns address=0
+# [DONE] time=146 ns completion=1
+# [FRAME_PASS] test=normal frame=1 cycles=2 len=4 type=01 sum=00 xor=00 errors=000 format_ok=1 queue_left=0
+# [FRAME_START] test=normal frame=2 len=8 type=02 mode=1 mask=f exp_len=0 payload_bytes=4
+# [MEM_READ] time=275 ns address=0
+# [MEM_READ] time=285 ns address=1
+# [MEM_READ] time=295 ns address=1
+# [DONE] time=296 ns completion=2
+# [FRAME_PASS] test=normal frame=2 cycles=3 len=8 type=02 sum=0a xor=04 errors=000 format_ok=1 queue_left=0
+# [FRAME_START] test=normal frame=3 len=32 type=04 mode=1 mask=f exp_len=0 payload_bytes=28
+# [MEM_READ] time=425 ns address=0
+# [MEM_READ] time=435 ns address=1
+# [MEM_READ] time=445 ns address=2
+# [MEM_READ] time=455 ns address=3
+# [MEM_READ] time=465 ns address=4
+# [MEM_READ] time=475 ns address=5
+# [MEM_READ] time=485 ns address=6
+# [MEM_READ] time=495 ns address=7
+# [MEM_READ] time=505 ns address=7
+# [DONE] time=506 ns completion=3
+# [FRAME_PASS] test=normal frame=3 cycles=9 len=32 type=04 sum=96 xor=1c errors=000 format_ok=1 queue_left=0
+# [CHECK_COUNT] test=normal item=DONE holds count=9
+# [CHECK_COUNT] test=normal item=completion busy/done count=3
+# [CHECK_COUNT] test=normal item=error flags count=3
+# [CHECK_COUNT] test=normal item=expected queue empty count=1
+# [CHECK_COUNT] test=normal item=first cycle busy/done count=3
+# [CHECK_COUNT] test=normal item=format_ok count=3
+# [CHECK_COUNT] test=normal item=monitor completions count=1
+# [CHECK_COUNT] test=normal item=monitor starts count=1
+# [CHECK_COUNT] test=normal item=payload sum count=3
+# [CHECK_COUNT] test=normal item=payload xor count=3
+# [CHECK_COUNT] test=normal item=reset busy/done count=1
+# [CHECK_COUNT] test=normal item=reset flags count=1
+# [CHECK_COUNT] test=normal item=reset result count=1
+# [CHECK_COUNT] test=normal item=result length count=3
+# [CHECK_COUNT] test=normal item=result type count=3
+# [CHECK_COUNT] test=normal item=start clears flags count=3
+# [CHECK_COUNT] test=normal item=start clears result count=3
+# [PASS] test=normal seed=1 frames=3 checks=45 expected_queue=0
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv(57)
+#    Time: 536 ns  Iteration: 0  Instance: /tb_lab2
+# Break in Module tb_lab2 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+LAB2_OK test=normal seed=1 run_id=current_20261025
+# End time: 02:29:57 on Oct 25,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0
+make[1]: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+E:/extension/GnuWin32/bin/make run TESTNAME=length SEED=1 RUN_ID=current_20261025
+make[1]: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+vsim -c -do "do batch.do length 1 current_20261025"
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do length 1 current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# normal
+# 1
+# 20261025_023008_51184_1792866608973826
+# length
+# 1
+# current_20261025
+# length_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/length_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/length_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:30:09 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/length_1/compile.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/proc_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/lab2_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv 
+# -- Compiling interface proc_if
+# -- Compiling package lab2_pkg
+# -- Compiling module packet_proc_core
+# -- Compiling module tb_lab2
+# -- Importing package lab2_pkg
+# 
+# Top level modules:
+# 	tb_lab2
+# End time: 02:30:09 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -voptargs="+acc" -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/length_1/run.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/length_1.wlf tb_lab2 "+TESTNAME=length" "+SEED=1" 
+# Start time: 02:30:09 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.proc_if(fast)
+# Loading work.lab2_pkg(fast)
+# Loading work.tb_lab2(fast)
+# Loading work.proc_if(fast__2)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=length class=length_test seed=1 clock_ns=10 memory_words=8 sync_read=1 payload_pattern=directed
+# [FRAME_START] test=length frame=1 len=3 type=01 mode=1 mask=f exp_len=0 payload_bytes=0
+# [MEM_READ] time=135 ns address=0
+# [MEM_READ] time=145 ns address=0
+# [DONE] time=146 ns completion=1
+# [FRAME_PASS] test=length frame=1 cycles=2 len=3 type=01 sum=00 xor=00 errors=001 format_ok=0 queue_left=0
+# [FRAME_START] test=length frame=2 len=33 type=01 mode=1 mask=f exp_len=0 payload_bytes=0
+# [MEM_READ] time=275 ns address=0
+# [MEM_READ] time=285 ns address=0
+# [DONE] time=286 ns completion=2
+# [FRAME_PASS] test=length frame=2 cycles=2 len=33 type=01 sum=00 xor=00 errors=001 format_ok=0 queue_left=0
+# [CHECK_COUNT] test=length item=DONE holds count=6
+# [CHECK_COUNT] test=length item=completion busy/done count=2
+# [CHECK_COUNT] test=length item=error flags count=2
+# [CHECK_COUNT] test=length item=expected queue empty count=1
+# [CHECK_COUNT] test=length item=first cycle busy/done count=2
+# [CHECK_COUNT] test=length item=format_ok count=2
+# [CHECK_COUNT] test=length item=monitor completions count=1
+# [CHECK_COUNT] test=length item=monitor starts count=1
+# [CHECK_COUNT] test=length item=payload sum count=2
+# [CHECK_COUNT] test=length item=payload xor count=2
+# [CHECK_COUNT] test=length item=reset busy/done count=1
+# [CHECK_COUNT] test=length item=reset flags count=1
+# [CHECK_COUNT] test=length item=reset result count=1
+# [CHECK_COUNT] test=length item=result length count=2
+# [CHECK_COUNT] test=length item=result type count=2
+# [CHECK_COUNT] test=length item=start clears flags count=2
+# [CHECK_COUNT] test=length item=start clears result count=2
+# [PASS] test=length seed=1 frames=2 checks=32 expected_queue=0
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv(57)
+#    Time: 316 ns  Iteration: 0  Instance: /tb_lab2
+# Break in Module tb_lab2 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+LAB2_OK test=length seed=1 run_id=current_20261025
+# End time: 02:30:17 on Oct 25,2026, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+make[1]: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+E:/extension/GnuWin32/bin/make run TESTNAME=timing SEED=1 RUN_ID=current_20261025
+make[1]: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+vsim -c -do "do batch.do timing 1 current_20261025"
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do timing 1 current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# normal
+# 1
+# 20261025_023027_61828_1792866627913197
+# timing
+# 1
+# current_20261025
+# timing_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/timing_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/timing_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:30:28 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/timing_1/compile.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/proc_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/lab2_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv 
+# -- Compiling interface proc_if
+# -- Compiling package lab2_pkg
+# -- Compiling module packet_proc_core
+# -- Compiling module tb_lab2
+# -- Importing package lab2_pkg
+# 
+# Top level modules:
+# 	tb_lab2
+# End time: 02:30:28 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -voptargs="+acc" -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/timing_1/run.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/timing_1.wlf tb_lab2 "+TESTNAME=timing" "+SEED=1" 
+# Start time: 02:30:28 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.proc_if(fast)
+# Loading work.lab2_pkg(fast)
+# Loading work.tb_lab2(fast)
+# Loading work.proc_if(fast__2)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=timing class=timing_test seed=1 clock_ns=10 memory_words=8 sync_read=1 payload_pattern=directed
+# [FRAME_START] test=timing frame=1 len=8 type=01 mode=1 mask=f exp_len=0 payload_bytes=4
+# [MEM_READ] time=135 ns address=0
+# [MEM_READ] time=145 ns address=1
+# [MEM_READ] time=155 ns address=1
+# [DONE] time=156 ns completion=1
+# [FRAME_PASS] test=timing frame=1 cycles=3 len=8 type=01 sum=0a xor=04 errors=000 format_ok=1 queue_left=0
+# [FRAME_START] test=timing frame=2 len=12 type=08 mode=1 mask=f exp_len=0 payload_bytes=8
+# [MEM_READ] time=285 ns address=0
+# [MEM_READ] time=295 ns address=1
+# [MEM_READ] time=305 ns address=2
+# [MEM_READ] time=315 ns address=2
+# [DONE] time=316 ns completion=2
+# [FRAME_PASS] test=timing frame=2 cycles=4 len=12 type=08 sum=24 xor=08 errors=000 format_ok=1 queue_left=0
+# [CHECK_COUNT] test=timing item=DONE holds count=6
+# [CHECK_COUNT] test=timing item=completion busy/done count=2
+# [CHECK_COUNT] test=timing item=error flags count=2
+# [CHECK_COUNT] test=timing item=expected queue empty count=1
+# [CHECK_COUNT] test=timing item=first cycle busy/done count=2
+# [CHECK_COUNT] test=timing item=format_ok count=2
+# [CHECK_COUNT] test=timing item=monitor completions count=1
+# [CHECK_COUNT] test=timing item=monitor starts count=1
+# [CHECK_COUNT] test=timing item=payload sum count=2
+# [CHECK_COUNT] test=timing item=payload xor count=2
+# [CHECK_COUNT] test=timing item=reset busy/done count=1
+# [CHECK_COUNT] test=timing item=reset flags count=1
+# [CHECK_COUNT] test=timing item=reset result count=1
+# [CHECK_COUNT] test=timing item=result length count=2
+# [CHECK_COUNT] test=timing item=result type count=2
+# [CHECK_COUNT] test=timing item=start clears flags count=2
+# [CHECK_COUNT] test=timing item=start clears result count=2
+# [PASS] test=timing seed=1 frames=2 checks=32 expected_queue=0
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv(57)
+#    Time: 346 ns  Iteration: 0  Instance: /tb_lab2
+# Break in Module tb_lab2 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+LAB2_OK test=timing seed=1 run_id=current_20261025
+# End time: 02:30:37 on Oct 25,2026, Elapsed time: 0:00:09
+# Errors: 0, Warnings: 0
+make[1]: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+[SMOKE_PASS] normal length timing seed=1
+E:/extension/GnuWin32/bin/make run TESTNAME=type SEED=1 RUN_ID=current_20261025
+make[1]: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+vsim -c -do "do batch.do type 1 current_20261025"
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do type 1 current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# normal
+# 1
+# 20261025_023049_61376_1792866649124273
+# type
+# 1
+# current_20261025
+# type_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/type_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/type_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:30:49 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/type_1/compile.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/proc_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/lab2_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv 
+# -- Compiling interface proc_if
+# -- Compiling package lab2_pkg
+# -- Compiling module packet_proc_core
+# -- Compiling module tb_lab2
+# -- Importing package lab2_pkg
+# 
+# Top level modules:
+# 	tb_lab2
+# End time: 02:30:49 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -voptargs="+acc" -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/type_1/run.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/type_1.wlf tb_lab2 "+TESTNAME=type" "+SEED=1" 
+# Start time: 02:30:49 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.proc_if(fast)
+# Loading work.lab2_pkg(fast)
+# Loading work.tb_lab2(fast)
+# Loading work.proc_if(fast__2)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=type class=type_test seed=1 clock_ns=10 memory_words=8 sync_read=1 payload_pattern=directed
+# [FRAME_START] test=type frame=1 len=8 type=03 mode=1 mask=f exp_len=0 payload_bytes=4
+# [MEM_READ] time=135 ns address=0
+# [MEM_READ] time=145 ns address=1
+# [MEM_READ] time=155 ns address=1
+# [DONE] time=156 ns completion=1
+# [FRAME_PASS] test=type frame=1 cycles=3 len=8 type=03 sum=0a xor=04 errors=010 format_ok=0 queue_left=0
+# [FRAME_START] test=type frame=2 len=8 type=01 mode=1 mask=e exp_len=0 payload_bytes=4
+# [MEM_READ] time=285 ns address=0
+# [MEM_READ] time=295 ns address=1
+# [MEM_READ] time=305 ns address=1
+# [DONE] time=306 ns completion=2
+# [FRAME_PASS] test=type frame=2 cycles=3 len=8 type=01 sum=0a xor=04 errors=010 format_ok=0 queue_left=0
+# [FRAME_START] test=type frame=3 len=8 type=08 mode=1 mask=8 exp_len=0 payload_bytes=4
+# [MEM_READ] time=435 ns address=0
+# [MEM_READ] time=445 ns address=1
+# [MEM_READ] time=455 ns address=1
+# [DONE] time=456 ns completion=3
+# [FRAME_PASS] test=type frame=3 cycles=3 len=8 type=08 sum=0a xor=04 errors=000 format_ok=1 queue_left=0
+# [CHECK_COUNT] test=type item=DONE holds count=9
+# [CHECK_COUNT] test=type item=completion busy/done count=3
+# [CHECK_COUNT] test=type item=error flags count=3
+# [CHECK_COUNT] test=type item=expected queue empty count=1
+# [CHECK_COUNT] test=type item=first cycle busy/done count=3
+# [CHECK_COUNT] test=type item=format_ok count=3
+# [CHECK_COUNT] test=type item=monitor completions count=1
+# [CHECK_COUNT] test=type item=monitor starts count=1
+# [CHECK_COUNT] test=type item=payload sum count=3
+# [CHECK_COUNT] test=type item=payload xor count=3
+# [CHECK_COUNT] test=type item=reset busy/done count=1
+# [CHECK_COUNT] test=type item=reset flags count=1
+# [CHECK_COUNT] test=type item=reset result count=1
+# [CHECK_COUNT] test=type item=result length count=3
+# [CHECK_COUNT] test=type item=result type count=3
+# [CHECK_COUNT] test=type item=start clears flags count=3
+# [CHECK_COUNT] test=type item=start clears result count=3
+# [PASS] test=type seed=1 frames=3 checks=45 expected_queue=0
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv(57)
+#    Time: 486 ns  Iteration: 0  Instance: /tb_lab2
+# Break in Module tb_lab2 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+LAB2_OK test=type seed=1 run_id=current_20261025
+# End time: 02:30:57 on Oct 25,2026, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+make[1]: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+E:/extension/GnuWin32/bin/make run TESTNAME=checksum SEED=1 RUN_ID=current_20261025
+make[1]: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+vsim -c -do "do batch.do checksum 1 current_20261025"
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do checksum 1 current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# normal
+# 1
+# 20261025_023107_37504_1792866667088135
+# checksum
+# 1
+# current_20261025
+# checksum_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/checksum_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/checksum_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:31:07 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/checksum_1/compile.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/proc_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/lab2_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv 
+# -- Compiling interface proc_if
+# -- Compiling package lab2_pkg
+# -- Compiling module packet_proc_core
+# -- Compiling module tb_lab2
+# -- Importing package lab2_pkg
+# 
+# Top level modules:
+# 	tb_lab2
+# End time: 02:31:07 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -voptargs="+acc" -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/checksum_1/run.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/checksum_1.wlf tb_lab2 "+TESTNAME=checksum" "+SEED=1" 
+# Start time: 02:31:07 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.proc_if(fast)
+# Loading work.lab2_pkg(fast)
+# Loading work.tb_lab2(fast)
+# Loading work.proc_if(fast__2)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=checksum class=checksum_test seed=1 clock_ns=10 memory_words=8 sync_read=1 payload_pattern=directed
+# [FRAME_START] test=checksum frame=1 len=8 type=02 mode=1 mask=f exp_len=0 payload_bytes=4
+# [MEM_READ] time=135 ns address=0
+# [MEM_READ] time=145 ns address=1
+# [MEM_READ] time=155 ns address=1
+# [DONE] time=156 ns completion=1
+# [FRAME_PASS] test=checksum frame=1 cycles=3 len=8 type=02 sum=0a xor=04 errors=100 format_ok=0 queue_left=0
+# [FRAME_START] test=checksum frame=2 len=8 type=02 mode=0 mask=f exp_len=0 payload_bytes=4
+# [MEM_READ] time=285 ns address=0
+# [MEM_READ] time=295 ns address=1
+# [MEM_READ] time=305 ns address=1
+# [DONE] time=306 ns completion=2
+# [FRAME_PASS] test=checksum frame=2 cycles=3 len=8 type=02 sum=0a xor=04 errors=000 format_ok=1 queue_left=0
+# [CHECK_COUNT] test=checksum item=DONE holds count=6
+# [CHECK_COUNT] test=checksum item=completion busy/done count=2
+# [CHECK_COUNT] test=checksum item=error flags count=2
+# [CHECK_COUNT] test=checksum item=expected queue empty count=1
+# [CHECK_COUNT] test=checksum item=first cycle busy/done count=2
+# [CHECK_COUNT] test=checksum item=format_ok count=2
+# [CHECK_COUNT] test=checksum item=monitor completions count=1
+# [CHECK_COUNT] test=checksum item=monitor starts count=1
+# [CHECK_COUNT] test=checksum item=payload sum count=2
+# [CHECK_COUNT] test=checksum item=payload xor count=2
+# [CHECK_COUNT] test=checksum item=reset busy/done count=1
+# [CHECK_COUNT] test=checksum item=reset flags count=1
+# [CHECK_COUNT] test=checksum item=reset result count=1
+# [CHECK_COUNT] test=checksum item=result length count=2
+# [CHECK_COUNT] test=checksum item=result type count=2
+# [CHECK_COUNT] test=checksum item=start clears flags count=2
+# [CHECK_COUNT] test=checksum item=start clears result count=2
+# [PASS] test=checksum seed=1 frames=2 checks=32 expected_queue=0
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv(57)
+#    Time: 336 ns  Iteration: 0  Instance: /tb_lab2
+# Break in Module tb_lab2 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+LAB2_OK test=checksum seed=1 run_id=current_20261025
+# End time: 02:31:14 on Oct 25,2026, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+make[1]: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+E:/extension/GnuWin32/bin/make run TESTNAME=extension SEED=1 RUN_ID=current_20261025
+make[1]: Entering directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+vsim -c -do "do batch.do extension 1 current_20261025"
+Reading pref.tcl
+
+# 2021.1
+
+# do batch.do extension 1 current_20261025
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# normal
+# 1
+# 20261025_023124_61264_1792866684058464
+# extension
+# 1
+# current_20261025
+# extension_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/extension_1
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/extension_1.wlf
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2
+# C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 02:31:24 on Oct 25,2026
+# vlog -sv -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/extension_1/compile.log C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/proc_if.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/lab2_pkg.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv 
+# -- Compiling interface proc_if
+# -- Compiling package lab2_pkg
+# -- Compiling module packet_proc_core
+# -- Compiling module tb_lab2
+# -- Importing package lab2_pkg
+# 
+# Top level modules:
+# 	tb_lab2
+# End time: 02:31:24 on Oct 25,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -lib C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/work_lab2 -voptargs="+acc" -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/logs/current_20261025/extension_1/run.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/waves/current_20261025/extension_1.wlf tb_lab2 "+TESTNAME=extension" "+SEED=1" 
+# Start time: 02:31:24 on Oct 25,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.proc_if(fast)
+# Loading work.lab2_pkg(fast)
+# Loading work.tb_lab2(fast)
+# Loading work.proc_if(fast__2)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=extension class=extension_test seed=1 clock_ns=10 memory_words=8 sync_read=1 payload_pattern=directed
+# [FRAME_START] test=extension frame=1 len=7 type=04 mode=1 mask=f exp_len=0 payload_bytes=3
+# [MEM_READ] time=135 ns address=0
+# [MEM_READ] time=145 ns address=1
+# [MEM_READ] time=155 ns address=1
+# [DONE] time=156 ns completion=1
+# [FRAME_PASS] test=extension frame=1 cycles=3 len=7 type=04 sum=06 xor=f8 errors=000 format_ok=1 queue_left=0
+# [FRAME_START] test=extension frame=2 len=13 type=08 mode=1 mask=f exp_len=0 payload_bytes=9
+# [MEM_READ] time=285 ns address=0
+# [MEM_READ] time=295 ns address=1
+# [MEM_READ] time=305 ns address=2
+# [MEM_READ] time=315 ns address=3
+# [MEM_READ] time=325 ns address=3
+# [DONE] time=326 ns completion=2
+# [FRAME_PASS] test=extension frame=2 cycles=5 len=13 type=08 sum=fa xor=aa errors=000 format_ok=1 queue_left=0
+# [FRAME_START] test=extension frame=3 len=12 type=02 mode=1 mask=f exp_len=8 payload_bytes=8
+# [MEM_READ] time=455 ns address=0
+# [MEM_READ] time=465 ns address=1
+# [MEM_READ] time=475 ns address=2
+# [MEM_READ] time=485 ns address=2
+# [DONE] time=486 ns completion=3
+# [FRAME_PASS] test=extension frame=3 cycles=4 len=12 type=02 sum=24 xor=08 errors=001 format_ok=0 queue_left=0
+# [FRAME_START] test=extension frame=4 len=3 type=03 mode=1 mask=f exp_len=0 payload_bytes=0
+# [MEM_READ] time=615 ns address=0
+# [MEM_READ] time=625 ns address=0
+# [DONE] time=626 ns completion=4
+# [FRAME_PASS] test=extension frame=4 cycles=2 len=3 type=03 sum=00 xor=00 errors=111 format_ok=0 queue_left=0
+# [CHECK_COUNT] test=extension item=DONE holds count=12
+# [CHECK_COUNT] test=extension item=completion busy/done count=4
+# [CHECK_COUNT] test=extension item=error flags count=4
+# [CHECK_COUNT] test=extension item=expected queue empty count=1
+# [CHECK_COUNT] test=extension item=first cycle busy/done count=4
+# [CHECK_COUNT] test=extension item=format_ok count=4
+# [CHECK_COUNT] test=extension item=monitor completions count=1
+# [CHECK_COUNT] test=extension item=monitor starts count=1
+# [CHECK_COUNT] test=extension item=payload sum count=4
+# [CHECK_COUNT] test=extension item=payload xor count=4
+# [CHECK_COUNT] test=extension item=reset busy/done count=1
+# [CHECK_COUNT] test=extension item=reset flags count=1
+# [CHECK_COUNT] test=extension item=reset result count=1
+# [CHECK_COUNT] test=extension item=result length count=4
+# [CHECK_COUNT] test=extension item=result type count=4
+# [CHECK_COUNT] test=extension item=start clears flags count=4
+# [CHECK_COUNT] test=extension item=start clears result count=4
+# [PASS] test=extension seed=1 frames=4 checks=58 expected_queue=0
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv(57)
+#    Time: 656 ns  Iteration: 0  Instance: /tb_lab2
+# Break in Module tb_lab2 at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/tb_lab2.sv line 57
+LAB2_OK test=extension seed=1 run_id=current_20261025
+# End time: 02:31:31 on Oct 25,2026, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+make[1]: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'
+[REGRESS_PASS] 6/6 tests seed=1
+make: Leaving directory `C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2'

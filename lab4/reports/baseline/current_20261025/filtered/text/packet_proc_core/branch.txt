@@ -1,0 +1,104 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.packet_proc_core
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30        30         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for Design Unit work.packet_proc_core
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File C:/Users/flood/AppData/Local/Temp/ppa_current_delivery_zpymukc9/try/lab2/packet_proc_core.sv
+------------------------------------CASE Branch------------------------------------
+    45                                       126     Count coming in to CASE
+    46              1                          4     
+    47              1                         16     
+    48              1                          7     
+    49              1                          6     
+    50              1                         93     
+Branch totals: 5 hits of 5 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    55                                        93     Count coming in to IF
+    55              1                         12     
+                                              81     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    67                                       204     Count coming in to IF
+    67              1                         33     
+                                             171     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    69                                       194     Count coming in to IF
+    69              1                         48     
+    69              2                        146     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    77                                       700     Count coming in to IF
+    77              1                        533     
+                                             167     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    85                                       273     Count coming in to IF
+    85              1                         20     
+    109             1                        253     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    110                                      253     Count coming in to CASE
+    111             1                         25     
+    111             2                         93     
+    136             1                        135     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    113                                      118     Count coming in to IF
+    113             1                         30     
+                                              88     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    139                                      135     Count coming in to IF
+    139             1                        129     
+                                               6     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    140                                      135     Count coming in to IF
+    140             1                        105     
+                                              30     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    141                                      105     Count coming in to IF
+    141             1                         30     
+    157             1                         75     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    148                                       30     Count coming in to IF
+    148             1                          3     
+                                              27     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    160                                       75     Count coming in to IF
+    160             1                         27     
+                                              48     All False Count
+Branch totals: 2 hits of 2 branches = 100.00%
+
+
+
+
+Total Coverage By Design Unit (filtered view): 100.00%
+

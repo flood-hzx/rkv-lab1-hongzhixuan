@@ -1,0 +1,49 @@
+Reading pref.tcl
+
+# 2021.1
+
+# coverage read -dataset busy_1 coverage/final/busy_1_review_cov_20261028_final_busy_1/busy_1.ucdb
+# coverage/final/busy_1_review_cov_20261028_final_busy_1/busy_1.ucdb opened as coverage dataset "busy_1"
+# do mergecov.do final review_20261028
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage
+# final
+# review_20261028
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/reports/final/review_20261028
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/busy_1_review_cov_20261028_final_busy_1/busy_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/closure_1_review_cov_20261028_final_closure_1/closure_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/coverage_1_review_cov_20261028_final_coverage_1/coverage_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/csr_1_review_cov_20261028_final_csr_1/csr_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/errors_1_review_cov_20261028_final_errors_1/errors_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/extension_1_review_cov_20261028_final_extension_1/extension_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/frames_1_review_cov_20261028_final_frames_1/frames_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/irq_1_review_cov_20261028_final_irq_1/irq_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/memory_1_review_cov_20261028_final_memory_1/memory_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/random_1_review_cov_20261028_final_random_1/random_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/smoke_1_review_cov_20261028_final_smoke_1/smoke_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/status_1_review_cov_20261028_final_status_1/status_1.ucdb
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/merged_raw.ucdb
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/exclusion_working_copy.ucdb
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/merged_filtered.ucdb
+Merging 12 final UCDB files into C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/merged_raw.ucdb
+# QuestaSim-64 vcover 2021.1 Coverage Utility 2021.01 Jan 19 2021
+# Start time: 05:29:21 on Oct 28,2026
+# vcover merge -out C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/merged_raw.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/busy_1_review_cov_20261028_final_busy_1/busy_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/closure_1_review_cov_20261028_final_closure_1/closure_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/coverage_1_review_cov_20261028_final_coverage_1/coverage_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/csr_1_review_cov_20261028_final_csr_1/csr_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/errors_1_review_cov_20261028_final_errors_1/errors_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/extension_1_review_cov_20261028_final_extension_1/extension_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/frames_1_review_cov_20261028_final_frames_1/frames_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/irq_1_review_cov_20261028_final_irq_1/irq_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/memory_1_review_cov_20261028_final_memory_1/memory_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/random_1_review_cov_20261028_final_random_1/random_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/smoke_1_review_cov_20261028_final_smoke_1/smoke_1.ucdb C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/status_1_review_cov_20261028_final_status_1/status_1.ucdb 
+# QuestaSim-64 vcover 2021.1 Coverage Utility 2021.01 Jan 19 2021
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/busy_1_review_cov_20261028_final_busy_1/busy_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/closure_1_review_cov_20261028_final_closure_1/closure_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/coverage_1_review_cov_20261028_final_coverage_1/coverage_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/csr_1_review_cov_20261028_final_csr_1/csr_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/errors_1_review_cov_20261028_final_errors_1/errors_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/extension_1_review_cov_20261028_final_extension_1/extension_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/frames_1_review_cov_20261028_final_frames_1/frames_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/irq_1_review_cov_20261028_final_irq_1/irq_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/memory_1_review_cov_20261028_final_memory_1/memory_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/random_1_review_cov_20261028_final_random_1/random_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/smoke_1_review_cov_20261028_final_smoke_1/smoke_1.ucdb
+# Merging file C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/final/status_1_review_cov_20261028_final_status_1/status_1.ucdb
+# Writing merged result to C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/merged_raw.ucdb
+# 
+# End time: 05:29:21 on Oct 28,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+Applying exclusions to copied dataset C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/exclusion_working_copy.ucdb and saving C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/merged_filtered.ucdb
+# coverage read -dataset lab4_filter_work C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/exclusion_working_copy.ucdb
+# C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/exclusion_working_copy.ucdb opened as coverage dataset "lab4_filter_work"
+# line s
+# branch b
+# condition c
+# fsm f
+# toggle t
+# apb_slave_if packet_sram packet_proc_core ppa_top
+Coverage COVSET=final runs=12 raw=C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/merged_raw.ucdb filtered=C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/coverage/merged_final_review_20261028/merged_filtered.ucdb reports=C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/reports/final/review_20261028

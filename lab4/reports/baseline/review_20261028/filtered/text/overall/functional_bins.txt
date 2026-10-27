@@ -1,0 +1,330 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /lab4_pkg
+=== Design Unit: work.lab4_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      2        na        na    93.21%
+        Coverpoints/Crosses         17        na        na        na
+            Covergroup Bins         69        62         7    89.85%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /lab4_pkg/coverage_collector/frame_cg            86.43%        100          -    Uncovered            
+    covered/total bins:                                    35         42          -                      
+    missing/total bins:                                     7         42          -                      
+    % Hit:                                             83.33%        100          -                      
+    Coverpoint cp_length                               80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+        bin below4                                          2          1          -    Covered              
+        bin min4                                            0          1          -    ZERO                 
+        bin middle                                         25          1          -    Covered              
+        bin max32                                           2          1          -    Covered              
+        bin above32                                         1          1          -    Covered              
+    Coverpoint cp_kind                                100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin type_01                                         5          1          -    Covered              
+        bin type_02                                        10          1          -    Covered              
+        bin type_04                                         7          1          -    Covered              
+        bin type_08                                         6          1          -    Covered              
+        bin invalid                                         2          1          -    Covered              
+    Coverpoint cp_mode                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin checksum_enabled                               23          1          -    Covered              
+        bin checksum_bypassed                               7          1          -    Covered              
+    Coverpoint cp_mask                                 66.66%        100          -    Uncovered            
+        covered/total bins:                                 2          3          -                      
+        missing/total bins:                                 1          3          -                      
+        % Hit:                                         66.66%        100          -                      
+        bin all_types_allowed                              29          1          -    Covered              
+        bin no_types_allowed                                0          1          -    ZERO                 
+        bin partial_mask                                    1          1          -    Covered              
+    Coverpoint cp_permission                          100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin invalid_type                                    2          1          -    Covered              
+        bin allowed_by_mask                                27          1          -    Covered              
+        bin rejected_by_mask                                1          1          -    Covered              
+    Coverpoint cp_expected_length                      66.66%        100          -    Uncovered            
+        covered/total bins:                                 2          3          -                      
+        missing/total bins:                                 1          3          -                      
+        % Hit:                                         66.66%        100          -                      
+        bin not_configured                                 29          1          -    Covered              
+        bin matches_packet                                  0          1          -    ZERO                 
+        bin differs_from_packet                             1          1          -    Covered              
+    Coverpoint cp_irq_enable                           75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        bin disabled                                        1          1          -    Covered              
+        bin done_only                                       1          1          -    Covered              
+        bin error_only                                      0          1          -    ZERO                 
+        bin done_and_error                                 28          1          -    Covered              
+    Coverpoint cp_outcome                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin pass                                           22          1          -    Covered              
+        bin error                                           8          1          -    Covered              
+    Coverpoint cp_error_combination                   100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin inconsistent_result                     0                     -    ZERO                 
+        bin pass                                           22          1          -    Covered              
+        bin length_only                                     3          1          -    Covered              
+        bin type_only                                       2          1          -    Covered              
+        bin checksum_only                                   2          1          -    Covered              
+        bin multiple_errors                                 1          1          -    Covered              
+    Coverpoint cp_sequence                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin index_gap                               0                     -    ZERO                 
+        bin first_frame                                     8          1          -    Covered              
+        bin consecutive_frame                              22          1          -    Covered              
+    Cross length_by_outcome                            62.50%        100          -    Uncovered            
+        covered/total bins:                                 5          8          -                      
+        missing/total bins:                                 3          8          -                      
+        % Hit:                                         62.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <above32,error>                             1          1          -    Covered              
+            bin <middle,error>                              5          1          -    Covered              
+            bin <below4,error>                              2          1          -    Covered              
+            bin <middle,pass>                              20          1          -    Covered              
+            bin <max32,pass>                                2          1          -    Covered              
+            bin <min4,*>                                    0          1          2    ZERO                 
+            bin <max32,error>                               0          1          1    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin above32_pass                         0                     -    ZERO                 
+            ignore_bin below4_pass                          0                     -    ZERO                 
+ TYPE /lab4_pkg/coverage_collector/access_cg          100.00%        100          -    Covered              
+    covered/total bins:                                    27         27          -                      
+    missing/total bins:                                     0         27          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_target                              100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ctrl                                           76          1          -    Covered              
+        bin cfg_register                                   47          1          -    Covered              
+        bin irq_enable                                     47          1          -    Covered              
+        bin irq_status                                    183          1          -    Covered              
+        bin expected_length                                47          1          -    Covered              
+        bin packet_memory                                 272          1          -    Covered              
+        bin result_or_status                              273          1          -    Covered              
+        bin other                                           5          1          -    Covered              
+    Coverpoint cp_direction                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin read                                          433          1          -    Covered              
+        bin write                                         517          1          -    Covered              
+    Coverpoint cp_response                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin accepted                                      938          1          -    Covered              
+        bin rejected                                       12          1          -    Covered              
+    Coverpoint cp_busy_protection                     100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin busy_write_accepted_unexpectedly 
+                                                            0                     -    ZERO                 
+        bin not_a_memory_write                            698          1          -    Covered              
+        bin idle_memory_write                             251          1          -    Covered              
+        bin busy_write_rejected                             1          1          -    Covered              
+    Coverpoint cp_irq_operation                       100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin unrelated_access                              825          1          -    Covered              
+        bin enable_none                                     2          1          -    Covered              
+        bin enable_done                                     1          1          -    Covered              
+        bin enable_error                                    1          1          -    Covered              
+        bin enable_both                                    30          1          -    Covered              
+        bin clear_none                                     30          1          -    Covered              
+        bin clear_done                                      1          1          -    Covered              
+        bin clear_error                                     1          1          -    Covered              
+        bin clear_both                                     59          1          -    Covered              
+    Coverpoint cp_irq_after_clear                     100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin not_a_clear                                   889          1          -    Covered              
+        bin irq_deasserted                                 60          1          -    Covered              
+        bin another_irq_remains                             1          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /lab4_pkg/coverage_collector/frame_cg            86.43%        100          -    Uncovered            
+    covered/total bins:                                    35         42          -                      
+    missing/total bins:                                     7         42          -                      
+    % Hit:                                             83.33%        100          -                      
+    Coverpoint cp_length                               80.00%        100          -    Uncovered            
+        covered/total bins:                                 4          5          -                      
+        missing/total bins:                                 1          5          -                      
+        % Hit:                                         80.00%        100          -                      
+        bin below4                                          2          1          -    Covered              
+        bin min4                                            0          1          -    ZERO                 
+        bin middle                                         25          1          -    Covered              
+        bin max32                                           2          1          -    Covered              
+        bin above32                                         1          1          -    Covered              
+    Coverpoint cp_kind                                100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin type_01                                         5          1          -    Covered              
+        bin type_02                                        10          1          -    Covered              
+        bin type_04                                         7          1          -    Covered              
+        bin type_08                                         6          1          -    Covered              
+        bin invalid                                         2          1          -    Covered              
+    Coverpoint cp_mode                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin checksum_enabled                               23          1          -    Covered              
+        bin checksum_bypassed                               7          1          -    Covered              
+    Coverpoint cp_mask                                 66.66%        100          -    Uncovered            
+        covered/total bins:                                 2          3          -                      
+        missing/total bins:                                 1          3          -                      
+        % Hit:                                         66.66%        100          -                      
+        bin all_types_allowed                              29          1          -    Covered              
+        bin no_types_allowed                                0          1          -    ZERO                 
+        bin partial_mask                                    1          1          -    Covered              
+    Coverpoint cp_permission                          100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin invalid_type                                    2          1          -    Covered              
+        bin allowed_by_mask                                27          1          -    Covered              
+        bin rejected_by_mask                                1          1          -    Covered              
+    Coverpoint cp_expected_length                      66.66%        100          -    Uncovered            
+        covered/total bins:                                 2          3          -                      
+        missing/total bins:                                 1          3          -                      
+        % Hit:                                         66.66%        100          -                      
+        bin not_configured                                 29          1          -    Covered              
+        bin matches_packet                                  0          1          -    ZERO                 
+        bin differs_from_packet                             1          1          -    Covered              
+    Coverpoint cp_irq_enable                           75.00%        100          -    Uncovered            
+        covered/total bins:                                 3          4          -                      
+        missing/total bins:                                 1          4          -                      
+        % Hit:                                         75.00%        100          -                      
+        bin disabled                                        1          1          -    Covered              
+        bin done_only                                       1          1          -    Covered              
+        bin error_only                                      0          1          -    ZERO                 
+        bin done_and_error                                 28          1          -    Covered              
+    Coverpoint cp_outcome                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin pass                                           22          1          -    Covered              
+        bin error                                           8          1          -    Covered              
+    Coverpoint cp_error_combination                   100.00%        100          -    Covered              
+        covered/total bins:                                 5          5          -                      
+        missing/total bins:                                 0          5          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin inconsistent_result                     0                     -    ZERO                 
+        bin pass                                           22          1          -    Covered              
+        bin length_only                                     3          1          -    Covered              
+        bin type_only                                       2          1          -    Covered              
+        bin checksum_only                                   2          1          -    Covered              
+        bin multiple_errors                                 1          1          -    Covered              
+    Coverpoint cp_sequence                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin index_gap                               0                     -    ZERO                 
+        bin first_frame                                     8          1          -    Covered              
+        bin consecutive_frame                              22          1          -    Covered              
+    Cross length_by_outcome                            62.50%        100          -    Uncovered            
+        covered/total bins:                                 5          8          -                      
+        missing/total bins:                                 3          8          -                      
+        % Hit:                                         62.50%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <above32,error>                             1          1          -    Covered              
+            bin <middle,error>                              5          1          -    Covered              
+            bin <below4,error>                              2          1          -    Covered              
+            bin <middle,pass>                              20          1          -    Covered              
+            bin <max32,pass>                                2          1          -    Covered              
+            bin <min4,*>                                    0          1          2    ZERO                 
+            bin <max32,error>                               0          1          1    ZERO                 
+        Illegal and Ignore Bins:
+            ignore_bin above32_pass                         0                     -    ZERO                 
+            ignore_bin below4_pass                          0                     -    ZERO                 
+ TYPE /lab4_pkg/coverage_collector/access_cg          100.00%        100          -    Covered              
+    covered/total bins:                                    27         27          -                      
+    missing/total bins:                                     0         27          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_target                              100.00%        100          -    Covered              
+        covered/total bins:                                 8          8          -                      
+        missing/total bins:                                 0          8          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin ctrl                                           76          1          -    Covered              
+        bin cfg_register                                   47          1          -    Covered              
+        bin irq_enable                                     47          1          -    Covered              
+        bin irq_status                                    183          1          -    Covered              
+        bin expected_length                                47          1          -    Covered              
+        bin packet_memory                                 272          1          -    Covered              
+        bin result_or_status                              273          1          -    Covered              
+        bin other                                           5          1          -    Covered              
+    Coverpoint cp_direction                           100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin read                                          433          1          -    Covered              
+        bin write                                         517          1          -    Covered              
+    Coverpoint cp_response                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin accepted                                      938          1          -    Covered              
+        bin rejected                                       12          1          -    Covered              
+    Coverpoint cp_busy_protection                     100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin busy_write_accepted_unexpectedly 
+                                                            0                     -    ZERO                 
+        bin not_a_memory_write                            698          1          -    Covered              
+        bin idle_memory_write                             251          1          -    Covered              
+        bin busy_write_rejected                             1          1          -    Covered              
+    Coverpoint cp_irq_operation                       100.00%        100          -    Covered              
+        covered/total bins:                                 9          9          -                      
+        missing/total bins:                                 0          9          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin unrelated_access                              825          1          -    Covered              
+        bin enable_none                                     2          1          -    Covered              
+        bin enable_done                                     1          1          -    Covered              
+        bin enable_error                                    1          1          -    Covered              
+        bin enable_both                                    30          1          -    Covered              
+        bin clear_none                                     30          1          -    Covered              
+        bin clear_done                                      1          1          -    Covered              
+        bin clear_error                                     1          1          -    Covered              
+        bin clear_both                                     59          1          -    Covered              
+    Coverpoint cp_irq_after_clear                     100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin not_a_clear                                   889          1          -    Covered              
+        bin irq_deasserted                                 60          1          -    Covered              
+        bin another_irq_remains                             1          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 93.21%  COVERGROUP TYPES: 2
+
+Total Coverage By Instance (filtered view): 93.21%
+

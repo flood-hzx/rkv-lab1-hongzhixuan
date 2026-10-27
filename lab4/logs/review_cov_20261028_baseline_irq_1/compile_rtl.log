@@ -1,0 +1,12 @@
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+Start time: 05:20:59 on Oct 28,2026
+vlog -sv "+cover=bcesft" -timescale 1ns/1ps -work C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/work_lab4 -l C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/logs/review_cov_20261028_baseline_irq_1/compile_rtl.log C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab1/apb_slave_if.sv C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab1/packet_sram.sv C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab2/packet_proc_core.sv C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab3/ppa_top.sv 
+-- Compiling module apb_slave_if
+-- Compiling module packet_sram
+-- Compiling module packet_proc_core
+-- Compiling module ppa_top
+
+Top level modules:
+	ppa_top
+End time: 05:20:59 on Oct 28,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

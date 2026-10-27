@@ -1,0 +1,48 @@
+Coverage Report by DU with details
+
+=================================================================================
+=== Design Unit: work.apb_slave_if
+=================================================================================
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                      17        17         0   100.00%
+
+================================Condition Details================================
+
+Condition Coverage for Design Unit work.apb_slave_if --
+
+  File C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab1/apb_slave_if.sv
+----------------Focused Condition View-------------------
+Line       89 Item    1  (~is_csr_address(PADDR) && ~memory_address)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       90 Item    1  (PWRITE && is_read_only(PADDR))
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       91 Item    1  ((PWRITE && memory_address) && busy_i)
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       101 Item    1  (PSEL && ~PWRITE)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       130 Item    1  (write_access && ~PSLVERR)
+Condition totals: 2 of 2 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       134 Item    1  ((PWDATA[1] && enable_o) && ~busy_i)
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+----------------Focused Condition View-------------------
+Line       163 Item    1  ((write_access && ~PSLVERR) && (PADDR == 16))
+Condition totals: 3 of 3 input terms covered = 100.00%
+
+
+
+
+Total Coverage By Design Unit (filtered view): 100.00%
+

@@ -1,0 +1,2 @@
+var g_data = ["","C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab3/ppa_if.sv","C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab3/lab3_pkg.sv","lab4_pkg.sv","tb_lab4.sv","C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab3/ppa_top.sv","C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab1/apb_slave_if.sv","C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab1/packet_sram.sv","C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab2/packet_proc_core.sv"];
+processSrcNamesData(g_data);

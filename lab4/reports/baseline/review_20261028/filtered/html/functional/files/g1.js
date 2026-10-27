@@ -1,0 +1,2 @@
+var g_data = {"16":{"pr":"/lab4_pkg","ty":2,"dui":3,"dun":"work.lab4_pkg","cvgs":[{"h":["/lab4_pkg/coverage_collector/frame_cg",1,1,17],"cov":[42,35,86.43],"opts":{"goal":"100","merge_instance":"auto(true)"}},{"h":["/lab4_pkg/coverage_collector/access_cg",1,1,29],"cov":[27,27,100.00],"opts":{"goal":"100","merge_instance":"auto(true)"}}]}};
+processCovergroupsData(g_data);

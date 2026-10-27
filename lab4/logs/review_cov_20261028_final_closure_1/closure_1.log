@@ -1,0 +1,73 @@
+# vsim -coverage -lib C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/work_lab4 -voptargs="+acc" -fsmdebug -sv_seed 1 -l C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/logs/review_cov_20261028_final_closure_1/closure_1.log -wlf C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/waves/review_cov_20261028_final_closure_1/closure_1.wlf tb_lab4 "+TESTNAME=closure" "+SEED=1" 
+# Start time: 05:29:03 on Oct 28,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.ppa_if(fast)
+# Loading work.lab3_pkg(fast)
+# Loading work.lab4_pkg(fast)
+# Loading work.tb_lab4(fast)
+# Loading work.ppa_if(fast__2)
+# Loading work.ppa_top(fast)
+# Loading work.apb_slave_if(fast)
+# Loading work.packet_sram(fast)
+# Loading work.packet_proc_core(fast)
+# [RUN] test=closure seed=1
+# [BEGIN] test=closure seed=1 branch=SV
+# [FRAME_PASS] test=closure seed=1 frame=1 len=255 type=ff mode=1 mask=0 sum=00 xor=00 errors=011
+# [FRAME_PASS] test=closure seed=1 frame=2 len=0 type=01 mode=1 mask=f sum=00 xor=00 errors=001
+# [FRAME_PASS] test=closure seed=1 frame=3 len=32 type=08 mode=1 mask=f sum=96 xor=1c errors=000
+# [FRAME_PASS] test=closure seed=1 frame=4 len=8 type=01 mode=0 mask=f sum=fc xor=00 errors=000
+# [FRAME_ABORT] reset accepted during PROCESS
+# [FUNCTIONAL_COVERAGE] frame_cg=78.03% access_cg=86.81% total_mean=82.42% frames=4 accesses=133
+# [COV_POINT] group=frame point=length coverage=80.00%
+# [COV_GAP] group=frame point=length coverage=80.00%
+# [COV_POINT] group=frame point=kind coverage=60.00%
+# [COV_GAP] group=frame point=kind coverage=60.00%
+# [COV_POINT] group=frame point=mode coverage=100.00%
+# [COV_POINT] group=frame point=mask coverage=66.67%
+# [COV_GAP] group=frame point=mask coverage=66.67%
+# [COV_POINT] group=frame point=type_permission coverage=66.67%
+# [COV_GAP] group=frame point=type_permission coverage=66.67%
+# [COV_POINT] group=frame point=expected_length coverage=100.00%
+# [COV_POINT] group=frame point=irq_enable coverage=75.00%
+# [COV_GAP] group=frame point=irq_enable coverage=75.00%
+# [COV_POINT] group=frame point=outcome coverage=100.00%
+# [COV_POINT] group=frame point=error_combination coverage=60.00%
+# [COV_GAP] group=frame point=error_combination coverage=60.00%
+# [COV_POINT] group=frame point=sequence coverage=100.00%
+# [COV_POINT] group=frame point=length_by_outcome coverage=50.00%
+# [COV_GAP] group=frame point=length_by_outcome coverage=50.00%
+# [COV_POINT] group=access point=address_target coverage=87.50%
+# [COV_GAP] group=access point=address_target coverage=87.50%
+# [COV_POINT] group=access point=direction coverage=100.00%
+# [COV_POINT] group=access point=response coverage=100.00%
+# [COV_POINT] group=access point=busy_protection coverage=100.00%
+# [COV_POINT] group=access point=irq_operation coverage=66.67%
+# [COV_GAP] group=access point=irq_operation coverage=66.67%
+# [COV_POINT] group=access point=irq_after_clear coverage=66.67%
+# [COV_GAP] group=access point=irq_after_clear coverage=66.67%
+# [COV_NOTE] length_outcome ignores below-4/pass and above-32/pass: these outcomes violate the specified length-error rule and are unreachable.
+# [COV_NOTE] inconsistent result, frame index gap and accepted busy memory write are illegal bins; the scoreboard would fail them before coverage sampling.
+# [PASS] test=closure seed=1 frames=4 aborted=1 checks=2633 accesses=133 busy_reads=3 done_reads=8 busy_rejects=1
+# [TEST_DONE] test=closure seed=1
+# ** Note: $finish    : C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/tb_lab4.sv(64)
+#    Time: 4246 ns  Iteration: 1  Instance: /tb_lab4
+# Break in Module tb_lab4 at C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/tb_lab4.sv line 64
+# Stopped at C:/Users/flood/AppData/Local/Temp/ppa_dual_review_phqh7p50/lab4/tb_lab4.sv line 64
+# 1
+# End time: 05:29:13 on Oct 28,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 0

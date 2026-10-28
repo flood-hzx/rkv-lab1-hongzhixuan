@@ -13,8 +13,7 @@
 | [lab2_pkg.sv](lab2_pkg.sv) | packet、参考计算、基类和六个独立测试类 |
 | [tb_lab2.sv](tb_lab2.sv) | 时钟、选例、实际输出监视和超时 |
 | [Makefile](Makefile)、compile.do、run.do、batch.do、wave.do | 编译、选例、批量运行、失败返回及GUI显示 |
-| [TESTPLAN.md](TESTPLAN.md)、[验收说明.md](验收说明.md) | 检查目标、输入/期望/实际结果、对应证据 |
-| [逻辑与语法讲解.md](逻辑与语法讲解.md) | 当前语言/方法和信号路径解释 |
+| [TESTPLAN.md](TESTPLAN.md)、[验收说明.md](验收说明.md) | 检查目标、语法/方法映射、输入/期望/实际结果及证据 |
 
 ## 实现与检查约定
 
